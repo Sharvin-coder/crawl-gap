@@ -1,0 +1,1059 @@
+{
+ "config": {
+  "script": "src/warc_lid.py",
+  "line_frac_thresh": 0.1,
+  "line_prob_thresh": 0.5,
+  "git_hash": "15945c4",
+  "run_unix": 1789860748
+ },
+ "runtime_s": 16.4,
+ "records": [
+  {
+   "url": "https://language.cherokee.org/",
+   "iso": "chr",
+   "lang": "Cherokee",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2026-30",
+   "cc_timestamp": "20260716173830",
+   "cc_text_chars": 3156,
+   "cc_n_lines": 63,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.954
+    ],
+    [
+     "sco_Latn",
+     0.008
+    ],
+    [
+     "dag_Latn",
+     0.006
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://www.cherokeedictionary.net/",
+   "iso": "chr",
+   "lang": "Cherokee",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2024-51",
+   "cc_timestamp": "20241212235534",
+   "cc_text_chars": 2261,
+   "cc_n_lines": 43,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.988
+    ],
+    [
+     "sco_Latn",
+     0.004
+    ],
+    [
+     "dag_Latn",
+     0.001
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://www.cherokeelessons.com/content/Cherokee-English-Dictionary-Online-Database/",
+   "iso": "chr",
+   "lang": "Cherokee",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2024-10",
+   "cc_timestamp": "20240221052031",
+   "cc_text_chars": 584,
+   "cc_n_lines": 9,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.971
+    ],
+    [
+     "sco_Latn",
+     0.013
+    ],
+    [
+     "swh_Latn",
+     0.003
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://learn.cherokee.org/",
+   "iso": "chr",
+   "lang": "Cherokee",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2026-30",
+   "cc_timestamp": "20260712222514",
+   "cc_text_chars": 481,
+   "cc_n_lines": 14,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.943
+    ],
+    [
+     "swh_Latn",
+     0.005
+    ],
+    [
+     "dag_Latn",
+     0.003
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://ojibwe.lib.umn.edu/",
+   "iso": "ciw",
+   "lang": "Ojibwe",
+   "lid_label_exists": false,
+   "crawl": "CC-MAIN-2026-30",
+   "cc_timestamp": "20260722200158",
+   "cc_text_chars": 7998,
+   "cc_n_lines": 76,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.911
+    ],
+    [
+     "sco_Latn",
+     0.014
+    ],
+    [
+     "dag_Latn",
+     0.006
+    ]
+   ],
+   "s2_pass": false,
+   "s2_status": "label_missing"
+  },
+  {
+   "url": "https://ojibwe.lib.umn.edu/browse/ojibwe",
+   "iso": "ciw",
+   "lang": "Ojibwe",
+   "lid_label_exists": false,
+   "crawl": "CC-MAIN-2026-30",
+   "cc_timestamp": "20260721225552",
+   "cc_text_chars": 5658,
+   "cc_n_lines": 150,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.815
+    ],
+    [
+     "jam_Latn",
+     0.09
+    ],
+    [
+     "sco_Latn",
+     0.045
+    ]
+   ],
+   "s2_pass": false,
+   "s2_status": "label_missing"
+  },
+  {
+   "url": "https://ojibwe.net/c/dictionary/",
+   "iso": "ciw",
+   "lang": "Ojibwe",
+   "lid_label_exists": false,
+   "crawl": "CC-MAIN-2026-17",
+   "cc_timestamp": "20260421230249",
+   "cc_text_chars": 1788,
+   "cc_n_lines": 43,
+   "doc_lid_top3": [
+    [
+     "dag_Latn",
+     0.241
+    ],
+    [
+     "eng_Latn",
+     0.101
+    ],
+    [
+     "sco_Latn",
+     0.038
+    ]
+   ],
+   "s2_pass": false,
+   "s2_status": "label_missing"
+  },
+  {
+   "url": "https://lakhota.org/",
+   "iso": "lkt",
+   "lang": "Lakota",
+   "lid_label_exists": false,
+   "crawl": "CC-MAIN-2026-30",
+   "cc_timestamp": "20260722050526",
+   "cc_text_chars": 1003,
+   "cc_n_lines": 11,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.988
+    ],
+    [
+     "gom_Latn",
+     0.001
+    ],
+    [
+     "sco_Latn",
+     0.001
+    ]
+   ],
+   "s2_pass": false,
+   "s2_status": "label_missing"
+  },
+  {
+   "url": "https://languageconservancy.org/learning-resources/",
+   "iso": "lkt",
+   "lang": "Lakota",
+   "lid_label_exists": false,
+   "crawl": "CC-MAIN-2026-30",
+   "cc_timestamp": "20260715230658",
+   "cc_text_chars": 4105,
+   "cc_n_lines": 94,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.79
+    ],
+    [
+     "sco_Latn",
+     0.041
+    ],
+    [
+     "dag_Latn",
+     0.02
+    ]
+   ],
+   "s2_pass": false,
+   "s2_status": "label_missing"
+  },
+  {
+   "url": "https://kanienkeha.net/page/42/",
+   "iso": "moh",
+   "lang": "Mohawk",
+   "lid_label_exists": true,
+   "s2_status": "no_200_capture"
+  },
+  {
+   "url": "https://www.firstvoices.com/kanienkeha-mohawk-en/words",
+   "iso": "moh",
+   "lang": "Mohawk",
+   "lid_label_exists": true,
+   "s2_status": "no_200_capture"
+  },
+  {
+   "url": "https://www.native-languages.org/mohawk_words.htm",
+   "iso": "moh",
+   "lang": "Mohawk",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2025-26",
+   "cc_timestamp": "20250616190335",
+   "cc_text_chars": 72,
+   "cc_n_lines": 2,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.999
+    ],
+    [
+     "swh_Latn",
+     0.0
+    ],
+    [
+     "nld_Latn",
+     0.0
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "http://mohawk.kanienkeha.free.fr/index_uk.htm",
+   "iso": "moh",
+   "lang": "Mohawk",
+   "lid_label_exists": true,
+   "s2_status": "no_200_capture"
+  },
+  {
+   "url": "https://www.choctawschool.com/",
+   "iso": "cho",
+   "lang": "Choctaw",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2023-23",
+   "cc_timestamp": "20230529054203",
+   "cc_text_chars": 5495,
+   "cc_n_lines": 135,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.925
+    ],
+    [
+     "dag_Latn",
+     0.014
+    ],
+    [
+     "sco_Latn",
+     0.009
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://www.choctawnation.com/about/language/",
+   "iso": "cho",
+   "lang": "Choctaw",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2026-30",
+   "cc_timestamp": "20260718025250",
+   "cc_text_chars": 2546,
+   "cc_n_lines": 23,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.981
+    ],
+    [
+     "cbk_Latn",
+     0.002
+    ],
+    [
+     "gom_Latn",
+     0.001
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://anompa.chickasaw.net/",
+   "iso": "cic",
+   "lang": "Chickasaw",
+   "lid_label_exists": false,
+   "s2_status": "no_200_capture"
+  },
+  {
+   "url": "https://www.chickasaw.net/our-nation/culture/language.aspx",
+   "iso": "cic",
+   "lang": "Chickasaw",
+   "lid_label_exists": false,
+   "crawl": "CC-MAIN-2026-25",
+   "cc_timestamp": "20260616024738",
+   "cc_text_chars": 6038,
+   "cc_n_lines": 67,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.996
+    ],
+    [
+     "sco_Latn",
+     0.001
+    ],
+    [
+     "gom_Latn",
+     0.0
+    ]
+   ],
+   "s2_pass": false,
+   "s2_status": "label_missing"
+  },
+  {
+   "url": "https://www.muscogeenation.com/det/mlp/",
+   "iso": "mus",
+   "lang": "Muscogee",
+   "lid_label_exists": true,
+   "s2_status": "no_200_capture"
+  },
+  {
+   "url": "https://muskogee.pages.wm.edu/learning/",
+   "iso": "mus",
+   "lang": "Muscogee",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2026-30",
+   "cc_timestamp": "20260718144226",
+   "cc_text_chars": 2433,
+   "cc_n_lines": 74,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.268
+    ],
+    [
+     "sco_Latn",
+     0.058
+    ],
+    [
+     "nds_Latn",
+     0.055
+    ]
+   ],
+   "target_lines": 22,
+   "target_line_frac": 0.297,
+   "s2_pass": true,
+   "s2_status": "pass"
+  },
+  {
+   "url": "https://navajo-dictionary.com/",
+   "iso": "nav",
+   "lang": "Navajo",
+   "lid_label_exists": true,
+   "s2_status": "no_200_capture"
+  },
+  {
+   "url": "https://opvp.navajo-nsn.gov/dine-bizaad/vocabulary/",
+   "iso": "nav",
+   "lang": "Navajo",
+   "lid_label_exists": true,
+   "s2_status": "no_200_capture"
+  },
+  {
+   "url": "https://verbs.colorado.edu/ArapahoLanguageProject/",
+   "iso": "arp",
+   "lang": "Arapaho",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2026-25",
+   "cc_timestamp": "20260608235308",
+   "cc_text_chars": 1326,
+   "cc_n_lines": 24,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.993
+    ],
+    [
+     "pcm_Latn",
+     0.0
+    ],
+    [
+     "sco_Latn",
+     0.0
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://www.colorado.edu/project/arapaho/language/common-arapaho-words",
+   "iso": "arp",
+   "lang": "Arapaho",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2026-30",
+   "cc_timestamp": "20260722201849",
+   "cc_text_chars": 644,
+   "cc_n_lines": 21,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.613
+    ],
+    [
+     "sco_Latn",
+     0.051
+    ],
+    [
+     "dag_Latn",
+     0.04
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://www.colorado.edu/project/arapaho/language/dictionary",
+   "iso": "arp",
+   "lang": "Arapaho",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2026-17",
+   "cc_timestamp": "20260413145315",
+   "cc_text_chars": 279226,
+   "cc_n_lines": 2940,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.708
+    ],
+    [
+     "sco_Latn",
+     0.054
+    ],
+    [
+     "som_Latn",
+     0.053
+    ]
+   ],
+   "target_lines": 1,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://www.osageculture.com/language",
+   "iso": "osa",
+   "lang": "Osage",
+   "lid_label_exists": false,
+   "crawl": "CC-MAIN-2026-30",
+   "cc_timestamp": "20260722051054",
+   "cc_text_chars": 3325,
+   "cc_n_lines": 59,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.994
+    ],
+    [
+     "sco_Latn",
+     0.001
+    ],
+    [
+     "pcm_Latn",
+     0.0
+    ]
+   ],
+   "s2_pass": false,
+   "s2_status": "label_missing"
+  },
+  {
+   "url": "https://www.osagenation-nsn.gov/who-we-are/language-department",
+   "iso": "osa",
+   "lang": "Osage",
+   "lid_label_exists": false,
+   "crawl": "CC-MAIN-2023-06",
+   "cc_timestamp": "20230204023920",
+   "cc_text_chars": 5565,
+   "cc_n_lines": 145,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.991
+    ],
+    [
+     "dag_Latn",
+     0.001
+    ],
+    [
+     "swh_Latn",
+     0.001
+    ]
+   ],
+   "s2_pass": false,
+   "s2_status": "label_missing"
+  },
+  {
+   "url": "https://www.osageculture.com/node/72",
+   "iso": "osa",
+   "lang": "Osage",
+   "lid_label_exists": false,
+   "s2_status": "no_200_capture"
+  },
+  {
+   "url": "https://dictionary.blackfoot.atlas-ling.ca/",
+   "iso": "bla",
+   "lang": "Blackfoot",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2026-17",
+   "cc_timestamp": "20260411110351",
+   "cc_text_chars": 233,
+   "cc_n_lines": 7,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.603
+    ],
+    [
+     "dag_Latn",
+     0.253
+    ],
+    [
+     "nld_Latn",
+     0.013
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://blackfoot.algonquianlanguages.ca/",
+   "iso": "bla",
+   "lang": "Blackfoot",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2026-17",
+   "cc_timestamp": "20260417175205",
+   "cc_text_chars": 2612,
+   "cc_n_lines": 43,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.977
+    ],
+    [
+     "sco_Latn",
+     0.002
+    ],
+    [
+     "dag_Latn",
+     0.002
+    ]
+   ],
+   "target_lines": 1,
+   "target_line_frac": 0.023,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://itwewina.altlab.app/",
+   "iso": "crk",
+   "lang": "Plains Cree",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2026-30",
+   "cc_timestamp": "20260712021120",
+   "cc_text_chars": 966,
+   "cc_n_lines": 28,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.927
+    ],
+    [
+     "sco_Latn",
+     0.023
+    ],
+    [
+     "dag_Latn",
+     0.01
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://www.creedictionary.com/about.php",
+   "iso": "crk",
+   "lang": "Plains Cree",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2026-30",
+   "cc_timestamp": "20260722191734",
+   "cc_text_chars": 4210,
+   "cc_n_lines": 43,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.992
+    ],
+    [
+     "sco_Latn",
+     0.002
+    ],
+    [
+     "dag_Latn",
+     0.001
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://plainscree.algonquianlanguages.ca/resources/dictionaries-and-grammars/",
+   "iso": "crk",
+   "lang": "Plains Cree",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2026-17",
+   "cc_timestamp": "20260414153242",
+   "cc_text_chars": 3210,
+   "cc_n_lines": 47,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.966
+    ],
+    [
+     "sco_Latn",
+     0.013
+    ],
+    [
+     "dag_Latn",
+     0.007
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://sealaskaheritage.org/shi-language-department/",
+   "iso": "tli",
+   "lang": "Tlingit",
+   "lid_label_exists": false,
+   "crawl": "CC-MAIN-2025-43",
+   "cc_timestamp": "20251017144128",
+   "cc_text_chars": 25438,
+   "cc_n_lines": 222,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.967
+    ],
+    [
+     "dag_Latn",
+     0.004
+    ],
+    [
+     "sco_Latn",
+     0.002
+    ]
+   ],
+   "s2_pass": false,
+   "s2_status": "label_missing"
+  },
+  {
+   "url": "https://www.sealaska.com/language/",
+   "iso": "tli",
+   "lang": "Tlingit",
+   "lid_label_exists": false,
+   "crawl": "CC-MAIN-2026-17",
+   "cc_timestamp": "20260418043040",
+   "cc_text_chars": 2467,
+   "cc_n_lines": 29,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.993
+    ],
+    [
+     "dag_Latn",
+     0.001
+    ],
+    [
+     "sco_Latn",
+     0.001
+    ]
+   ],
+   "s2_pass": false,
+   "s2_status": "label_missing"
+  },
+  {
+   "url": "https://www.uaf.edu/anla/collections/dictionaries/",
+   "iso": "esu",
+   "lang": "Central Alaskan Yup'ik",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2025-43",
+   "cc_timestamp": "20251012115715",
+   "cc_text_chars": 3612,
+   "cc_n_lines": 73,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.275
+    ],
+    [
+     "sco_Latn",
+     0.201
+    ],
+    [
+     "dag_Latn",
+     0.188
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://www.potawatomiheritage.com/language/language-dept/",
+   "iso": "pot",
+   "lang": "Potawatomi",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2026-21",
+   "cc_timestamp": "20260513073244",
+   "cc_text_chars": 1464,
+   "cc_n_lines": 18,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.98
+    ],
+    [
+     "pcm_Latn",
+     0.003
+    ],
+    [
+     "sco_Latn",
+     0.002
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://ojibwe.net/t/bodewadmimwen/",
+   "iso": "pot",
+   "lang": "Potawatomi",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2025-47",
+   "cc_timestamp": "20251114143728",
+   "cc_text_chars": 814,
+   "cc_n_lines": 23,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.398
+    ],
+    [
+     "ind_Latn",
+     0.079
+    ],
+    [
+     "atj_Latn",
+     0.039
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://www.potawatomi.org/blog/2020/11/13/potawatomi-language-learning-tips/",
+   "iso": "pot",
+   "lang": "Potawatomi",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2025-05",
+   "cc_timestamp": "20250121110855",
+   "cc_text_chars": 4441,
+   "cc_n_lines": 39,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.997
+    ],
+    [
+     "gom_Latn",
+     0.0
+    ],
+    [
+     "abn_Latn",
+     0.0
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://menomineelanguage.com/",
+   "iso": "mez",
+   "lang": "Menominee",
+   "lid_label_exists": false,
+   "crawl": "CC-MAIN-2026-30",
+   "cc_timestamp": "20260714065511",
+   "cc_text_chars": 1033,
+   "cc_n_lines": 20,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.895
+    ],
+    [
+     "swh_Latn",
+     0.005
+    ],
+    [
+     "pcm_Latn",
+     0.005
+    ]
+   ],
+   "s2_pass": false,
+   "s2_status": "label_missing"
+  },
+  {
+   "url": "https://menominee.libguides.com/c.php?g=798447&p=5708632",
+   "iso": "mez",
+   "lang": "Menominee",
+   "lid_label_exists": false,
+   "s2_status": "no_200_capture"
+  },
+  {
+   "url": "https://blackfoot.algonquianlanguages.ca/grammar/",
+   "iso": "bla",
+   "lang": "Blackfoot",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2026-17",
+   "cc_timestamp": "20260417191834",
+   "cc_text_chars": 933,
+   "cc_n_lines": 28,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.476
+    ],
+    [
+     "sco_Latn",
+     0.139
+    ],
+    [
+     "dag_Latn",
+     0.046
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://language.cherokee.org/fonts-and-keyboards/",
+   "iso": "chr",
+   "lang": "Cherokee",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2026-30",
+   "cc_timestamp": "20260716163637",
+   "cc_text_chars": 1996,
+   "cc_n_lines": 60,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.868
+    ],
+    [
+     "dag_Latn",
+     0.016
+    ],
+    [
+     "sco_Latn",
+     0.01
+    ]
+   ],
+   "target_lines": 1,
+   "target_line_frac": 0.017,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://www.cherokeedictionary.net/first500",
+   "iso": "chr",
+   "lang": "Cherokee",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2025-51",
+   "cc_timestamp": "20251209014315",
+   "cc_text_chars": 9517,
+   "cc_n_lines": 211,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.982
+    ],
+    [
+     "sco_Latn",
+     0.002
+    ],
+    [
+     "yor_Latn",
+     0.002
+    ]
+   ],
+   "target_lines": 11,
+   "target_line_frac": 0.052,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  },
+  {
+   "url": "https://ojibwe.net/lessons/",
+   "iso": "ciw",
+   "lang": "Ojibwe",
+   "lid_label_exists": false,
+   "crawl": "CC-MAIN-2025-51",
+   "cc_timestamp": "20251208043359",
+   "cc_text_chars": 1994,
+   "cc_n_lines": 17,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.962
+    ],
+    [
+     "pcm_Latn",
+     0.005
+    ],
+    [
+     "swh_Latn",
+     0.005
+    ]
+   ],
+   "s2_pass": false,
+   "s2_status": "label_missing"
+  },
+  {
+   "url": "https://plainscree.algonquianlanguages.ca/",
+   "iso": "crk",
+   "lang": "Plains Cree",
+   "lid_label_exists": true,
+   "crawl": "CC-MAIN-2024-51",
+   "cc_timestamp": "20241213094929",
+   "cc_text_chars": 673,
+   "cc_n_lines": 20,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.873
+    ],
+    [
+     "dag_Latn",
+     0.034
+    ],
+    [
+     "sco_Latn",
+     0.011
+    ]
+   ],
+   "target_lines": 1,
+   "target_line_frac": 0.05,
+   "s2_pass": false,
+   "s2_status": "routed_elsewhere"
+  }
+ ]
+}

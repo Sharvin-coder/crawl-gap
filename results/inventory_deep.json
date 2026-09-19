@@ -1,0 +1,519 @@
+{
+ "config": {
+  "script": "src/deepen_inventory.py",
+  "max_per_site": 4,
+  "line_p": 0.3,
+  "accept": {
+   "ciw": [
+    "ciw",
+    "oji",
+    "ojb",
+    "ojs",
+    "ojw",
+    "ojg",
+    "otw"
+   ],
+   "lkt": [
+    "lkt",
+    "dak"
+   ],
+   "crk": [
+    "crk",
+    "cwd",
+    "csw"
+   ],
+   "esu": [
+    "esu",
+    "ess",
+    "ems"
+   ]
+  },
+  "git_hash": "fbac560",
+  "run_unix": 1786510100
+ },
+ "runtime_s": 234.1,
+ "best_pages": [
+  {
+   "iso": "arp",
+   "lang": "Arapaho",
+   "domain": "verbs.colorado.edu",
+   "url": "https://verbs.colorado.edu/ArapahoLanguageProject/",
+   "parent": "https://verbs.colorado.edu/ArapahoLanguageProject/",
+   "n_lines": 24,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [
+    "arp_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "arp",
+   "lang": "Arapaho",
+   "domain": "www.colorado.edu",
+   "url": "https://www.colorado.edu/project/arapaho/language/dictionary",
+   "parent": "https://www.colorado.edu/project/arapaho/language/dictionary",
+   "n_lines": 2940,
+   "target_lines": 3,
+   "target_line_frac": 0.001,
+   "accept_labels": [
+    "arp_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "bla",
+   "lang": "Blackfoot",
+   "domain": "blackfoot.algonquianlanguages.ca",
+   "url": "https://blackfoot.algonquianlanguages.ca/grammar/",
+   "parent": "https://blackfoot.algonquianlanguages.ca/",
+   "n_lines": 28,
+   "target_lines": 3,
+   "target_line_frac": 0.107,
+   "accept_labels": [
+    "bla_Latn"
+   ],
+   "found_via": "auto-discovered link from https://blackfoot.algonquianlanguages.ca/"
+  },
+  {
+   "iso": "bla",
+   "lang": "Blackfoot",
+   "domain": "dictionary.blackfoot.atlas-ling.ca",
+   "url": "https://dictionary.blackfoot.atlas-ling.ca/",
+   "parent": "https://dictionary.blackfoot.atlas-ling.ca/",
+   "n_lines": 7,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [
+    "bla_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "cho",
+   "lang": "Choctaw",
+   "domain": "www.choctawnation.com",
+   "url": "https://www.choctawnation.com/about/language/",
+   "parent": "https://www.choctawnation.com/about/language/",
+   "n_lines": 23,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [
+    "cho_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "cho",
+   "lang": "Choctaw",
+   "domain": "www.choctawschool.com",
+   "url": "https://www.choctawschool.com/",
+   "parent": "https://www.choctawschool.com/",
+   "n_lines": 23,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [
+    "cho_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "chr",
+   "lang": "Cherokee",
+   "domain": "language.cherokee.org",
+   "url": "https://language.cherokee.org/fonts-and-keyboards/",
+   "parent": "https://language.cherokee.org/",
+   "n_lines": 60,
+   "target_lines": 1,
+   "target_line_frac": 0.017,
+   "accept_labels": [
+    "chr_Cher",
+    "chr_Latn"
+   ],
+   "found_via": "auto-discovered link from https://language.cherokee.org/"
+  },
+  {
+   "iso": "chr",
+   "lang": "Cherokee",
+   "domain": "learn.cherokee.org",
+   "url": "https://learn.cherokee.org/",
+   "parent": "https://learn.cherokee.org/",
+   "n_lines": 15,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [
+    "chr_Cher",
+    "chr_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "chr",
+   "lang": "Cherokee",
+   "domain": "www.cherokeedictionary.net",
+   "url": "https://www.cherokeedictionary.net/first500",
+   "parent": "https://www.cherokeedictionary.net/",
+   "n_lines": 211,
+   "target_lines": 11,
+   "target_line_frac": 0.052,
+   "accept_labels": [
+    "chr_Cher",
+    "chr_Latn"
+   ],
+   "found_via": "auto-discovered link from https://www.cherokeedictionary.net/"
+  },
+  {
+   "iso": "cic",
+   "lang": "Chickasaw",
+   "domain": "anompa.chickasaw.net",
+   "url": "https://anompa.chickasaw.net/",
+   "parent": "https://anompa.chickasaw.net/",
+   "n_lines": 2,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "cic",
+   "lang": "Chickasaw",
+   "domain": "www.chickasaw.net",
+   "url": "https://www.chickasaw.net/our-nation/culture/language.aspx",
+   "parent": "https://www.chickasaw.net/our-nation/culture/language.aspx",
+   "n_lines": 67,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "ciw",
+   "lang": "Ojibwe",
+   "domain": "ojibwe.lib.umn.edu",
+   "url": "https://ojibwe.lib.umn.edu/",
+   "parent": "https://ojibwe.lib.umn.edu/",
+   "n_lines": 76,
+   "target_lines": 5,
+   "target_line_frac": 0.066,
+   "accept_labels": [
+    "ojb_Cans",
+    "ojb_Latn",
+    "otw_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "ciw",
+   "lang": "Ojibwe",
+   "domain": "ojibwe.net",
+   "url": "https://ojibwe.net/lessons/",
+   "parent": "https://ojibwe.net/c/dictionary/",
+   "n_lines": 17,
+   "target_lines": 2,
+   "target_line_frac": 0.118,
+   "accept_labels": [
+    "ojb_Cans",
+    "ojb_Latn",
+    "otw_Latn"
+   ],
+   "found_via": "auto-discovered link from https://ojibwe.net/c/dictionary/"
+  },
+  {
+   "iso": "crk",
+   "lang": "Plains Cree",
+   "domain": "itwewina.altlab.app",
+   "url": "https://itwewina.altlab.app/",
+   "parent": "https://itwewina.altlab.app/",
+   "n_lines": 28,
+   "target_lines": 1,
+   "target_line_frac": 0.036,
+   "accept_labels": [
+    "crk_Cans",
+    "crk_Latn",
+    "csw_Cans",
+    "csw_Latn",
+    "cwd_Cans"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "crk",
+   "lang": "Plains Cree",
+   "domain": "plainscree.algonquianlanguages.ca",
+   "url": "https://plainscree.algonquianlanguages.ca/",
+   "parent": "https://plainscree.algonquianlanguages.ca/resources/dictionaries-and-grammars/",
+   "n_lines": 21,
+   "target_lines": 1,
+   "target_line_frac": 0.048,
+   "accept_labels": [
+    "crk_Cans",
+    "crk_Latn",
+    "csw_Cans",
+    "csw_Latn",
+    "cwd_Cans"
+   ],
+   "found_via": "auto-discovered link from https://plainscree.algonquianlanguages.ca/resources/dictionaries-and-grammars/"
+  },
+  {
+   "iso": "crk",
+   "lang": "Plains Cree",
+   "domain": "www.creedictionary.com",
+   "url": "https://www.creedictionary.com/about.php",
+   "parent": "https://www.creedictionary.com/about.php",
+   "n_lines": 43,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [
+    "crk_Cans",
+    "crk_Latn",
+    "csw_Cans",
+    "csw_Latn",
+    "cwd_Cans"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "esu",
+   "lang": "Central Alaskan Yup'ik",
+   "domain": "www.uaf.edu",
+   "url": "https://www.uaf.edu/anla/collections/dictionaries/",
+   "parent": "https://www.uaf.edu/anla/collections/dictionaries/",
+   "n_lines": 73,
+   "target_lines": 1,
+   "target_line_frac": 0.014,
+   "accept_labels": [
+    "ess_Latn",
+    "esu_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "lkt",
+   "lang": "Lakota",
+   "domain": "lakhota.org",
+   "url": "https://lakhota.org/",
+   "parent": "https://lakhota.org/",
+   "n_lines": 19,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [
+    "dak_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "lkt",
+   "lang": "Lakota",
+   "domain": "languageconservancy.org",
+   "url": "https://languageconservancy.org/learning-resources/",
+   "parent": "https://languageconservancy.org/learning-resources/",
+   "n_lines": 94,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [
+    "dak_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "mez",
+   "lang": "Menominee",
+   "domain": "menominee.libguides.com",
+   "url": "https://menominee.libguides.com/c.php?g=798447&p=5708632",
+   "parent": "https://menominee.libguides.com/c.php?g=798447&p=5708632",
+   "n_lines": 55,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "mez",
+   "lang": "Menominee",
+   "domain": "menomineelanguage.com",
+   "url": "https://menomineelanguage.com/",
+   "parent": "https://menomineelanguage.com/",
+   "n_lines": 20,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "moh",
+   "lang": "Mohawk",
+   "domain": "mohawk.kanienkeha.free.fr",
+   "url": "http://mohawk.kanienkeha.free.fr/index_uk.htm",
+   "parent": "http://mohawk.kanienkeha.free.fr/index_uk.htm",
+   "n_lines": 1,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [
+    "moh_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "moh",
+   "lang": "Mohawk",
+   "domain": "www.firstvoices.com",
+   "url": "https://www.firstvoices.com/kanienkeha-mohawk-en/words",
+   "parent": "https://www.firstvoices.com/kanienkeha-mohawk-en/words",
+   "n_lines": 0,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [
+    "moh_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "moh",
+   "lang": "Mohawk",
+   "domain": "www.native-languages.org",
+   "url": "https://www.native-languages.org/mohawk_words.htm",
+   "parent": "https://www.native-languages.org/mohawk_words.htm",
+   "n_lines": 30,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [
+    "moh_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "mus",
+   "lang": "Muscogee",
+   "domain": "muskogee.pages.wm.edu",
+   "url": "https://muskogee.pages.wm.edu/learning/",
+   "parent": "https://muskogee.pages.wm.edu/learning/",
+   "n_lines": 74,
+   "target_lines": 25,
+   "target_line_frac": 0.338,
+   "accept_labels": [
+    "mus_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "mus",
+   "lang": "Muscogee",
+   "domain": "www.muscogeenation.com",
+   "url": "https://www.muscogeenation.com/det/mlp/",
+   "parent": "https://www.muscogeenation.com/det/mlp/",
+   "n_lines": 282,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [
+    "mus_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "nav",
+   "lang": "Navajo",
+   "domain": "navajo-dictionary.com",
+   "url": "https://navajo-dictionary.com/",
+   "parent": "https://navajo-dictionary.com/",
+   "n_lines": 22,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [
+    "nav_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "nav",
+   "lang": "Navajo",
+   "domain": "opvp.navajo-nsn.gov",
+   "url": "https://opvp.navajo-nsn.gov/dine-bizaad/vocabulary/",
+   "parent": "https://opvp.navajo-nsn.gov/dine-bizaad/vocabulary/",
+   "n_lines": 20,
+   "target_lines": 1,
+   "target_line_frac": 0.05,
+   "accept_labels": [
+    "nav_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "osa",
+   "lang": "Osage",
+   "domain": "www.osageculture.com",
+   "url": "https://www.osageculture.com/language",
+   "parent": "https://www.osageculture.com/language",
+   "n_lines": 59,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "pot",
+   "lang": "Potawatomi",
+   "domain": "ojibwe.net",
+   "url": "https://ojibwe.net/t/bodewadmimwen/",
+   "parent": "https://ojibwe.net/t/bodewadmimwen/",
+   "n_lines": 23,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [
+    "pot_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "pot",
+   "lang": "Potawatomi",
+   "domain": "www.potawatomi.org",
+   "url": "https://www.potawatomi.org/blog/2020/11/13/potawatomi-language-learning-tips/",
+   "parent": "https://www.potawatomi.org/blog/2020/11/13/potawatomi-language-learning-tips/",
+   "n_lines": 41,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [
+    "pot_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "pot",
+   "lang": "Potawatomi",
+   "domain": "www.potawatomiheritage.com",
+   "url": "https://www.potawatomiheritage.com/language/language-dept/",
+   "parent": "https://www.potawatomiheritage.com/language/language-dept/",
+   "n_lines": 18,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [
+    "pot_Latn"
+   ],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "tli",
+   "lang": "Tlingit",
+   "domain": "sealaskaheritage.org",
+   "url": "https://sealaskaheritage.org/shi-language-department/",
+   "parent": "https://sealaskaheritage.org/shi-language-department/",
+   "n_lines": 220,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [],
+   "found_via": "inventory candidate"
+  },
+  {
+   "iso": "tli",
+   "lang": "Tlingit",
+   "domain": "www.sealaska.com",
+   "url": "https://www.sealaska.com/language/",
+   "parent": "https://www.sealaska.com/language/",
+   "n_lines": 29,
+   "target_lines": 0,
+   "target_line_frac": 0.0,
+   "accept_labels": [],
+   "found_via": "inventory candidate"
+  }
+ ]
+}

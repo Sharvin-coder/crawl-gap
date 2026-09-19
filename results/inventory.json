@@ -1,0 +1,1325 @@
+{
+ "config": {
+  "script": "src/verify_inventory.py",
+  "glotlid": "v3",
+  "ua": "crawlgap-research/0.1 (academic study of web-crawl coverage; contact: sharvingoyal09@gmail.com)",
+  "delay_s": 1.5,
+  "git_hash": "15945c4",
+  "run_unix": 1789860852
+ },
+ "runtime_s": 2.5,
+ "n_candidates": 40,
+ "n_live": 37,
+ "n_lid_label_missing": 14,
+ "candidates": [
+  {
+   "lang": "Cherokee",
+   "iso": "chr",
+   "family": "Iroquoian",
+   "url": "https://language.cherokee.org/",
+   "kind": "official-program",
+   "found_via": "WebSearch 2026-08-11: 'Cherokee Nation language department website online Cherokee dictionary syllabary lessons'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://language.cherokee.org/",
+   "text_chars": 3156,
+   "n_lines": 63,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "chr_Cher",
+    "chr_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.954
+    ],
+    [
+     "sco_Latn",
+     0.008
+    ],
+    [
+     "dag_Latn",
+     0.006
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Cherokee",
+   "iso": "chr",
+   "family": "Iroquoian",
+   "url": "https://www.cherokeedictionary.net/",
+   "kind": "dictionary",
+   "found_via": "WebSearch 2026-08-11: 'Cherokee Nation language department website online Cherokee dictionary syllabary lessons'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://www.cherokeedictionary.net/",
+   "text_chars": 2368,
+   "n_lines": 44,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "chr_Cher",
+    "chr_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.99
+    ],
+    [
+     "sco_Latn",
+     0.003
+    ],
+    [
+     "pcm_Latn",
+     0.001
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Cherokee",
+   "iso": "chr",
+   "family": "Iroquoian",
+   "url": "https://www.cherokeelessons.com/content/Cherokee-English-Dictionary-Online-Database/",
+   "kind": "dictionary",
+   "found_via": "WebSearch 2026-08-11: 'Cherokee Nation language department website online Cherokee dictionary syllabary lessons'",
+   "live": false,
+   "status": 522,
+   "final_url": "https://www.cherokeelessons.com/content/Cherokee-English-Dictionary-Online-Database/",
+   "text_chars": 0,
+   "n_lines": 0,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "chr_Cher",
+    "chr_Latn"
+   ],
+   "lid_label_exists": true
+  },
+  {
+   "lang": "Cherokee",
+   "iso": "chr",
+   "family": "Iroquoian",
+   "url": "https://learn.cherokee.org/",
+   "kind": "learning-portal",
+   "found_via": "WebSearch 2026-08-11: 'Cherokee Nation language department website online Cherokee dictionary syllabary lessons'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://learn.cherokee.org/",
+   "text_chars": 509,
+   "n_lines": 15,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "chr_Cher",
+    "chr_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.952
+    ],
+    [
+     "swh_Latn",
+     0.005
+    ],
+    [
+     "sco_Latn",
+     0.002
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Ojibwe",
+   "iso": "ciw",
+   "family": "Algonquian",
+   "url": "https://ojibwe.lib.umn.edu/",
+   "kind": "dictionary",
+   "found_via": "WebSearch 2026-08-11: 'Ojibwe People's Dictionary online Ojibwe language website'",
+   "note": "macrolanguage oji; OPD is Minnesota Southwestern Ojibwe",
+   "live": true,
+   "status": 200,
+   "final_url": "https://ojibwe.lib.umn.edu/",
+   "text_chars": 7998,
+   "n_lines": 76,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [],
+   "lid_label_exists": false,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.911
+    ],
+    [
+     "sco_Latn",
+     0.014
+    ],
+    [
+     "dag_Latn",
+     0.006
+    ]
+   ],
+   "target_lines": null,
+   "target_line_frac": null
+  },
+  {
+   "lang": "Ojibwe",
+   "iso": "ciw",
+   "family": "Algonquian",
+   "url": "https://ojibwe.lib.umn.edu/browse/ojibwe",
+   "kind": "dictionary",
+   "found_via": "WebSearch 2026-08-11: 'Ojibwe People's Dictionary online Ojibwe language website'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://ojibwe.lib.umn.edu/browse/ojibwe",
+   "text_chars": 5658,
+   "n_lines": 150,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [],
+   "lid_label_exists": false,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.815
+    ],
+    [
+     "jam_Latn",
+     0.09
+    ],
+    [
+     "sco_Latn",
+     0.045
+    ]
+   ],
+   "target_lines": null,
+   "target_line_frac": null
+  },
+  {
+   "lang": "Ojibwe",
+   "iso": "ciw",
+   "family": "Algonquian",
+   "url": "https://ojibwe.net/c/dictionary/",
+   "kind": "community",
+   "found_via": "WebSearch 2026-08-11: 'Ojibwe People's Dictionary online Ojibwe language website'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://ojibwe.net/c/dictionary/",
+   "text_chars": 1788,
+   "n_lines": 43,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [],
+   "lid_label_exists": false,
+   "doc_lid_top3": [
+    [
+     "dag_Latn",
+     0.241
+    ],
+    [
+     "eng_Latn",
+     0.101
+    ],
+    [
+     "sco_Latn",
+     0.038
+    ]
+   ],
+   "target_lines": null,
+   "target_line_frac": null
+  },
+  {
+   "lang": "Lakota",
+   "iso": "lkt",
+   "family": "Siouan",
+   "url": "https://lakhota.org/",
+   "kind": "official-program",
+   "found_via": "WebSearch 2026-08-11: 'Lakota language website online dictionary Lakota Language Consortium new lakota dictionary'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://lakhota.org/",
+   "text_chars": 1258,
+   "n_lines": 19,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [],
+   "lid_label_exists": false,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.977
+    ],
+    [
+     "ind_Latn",
+     0.001
+    ],
+    [
+     "sco_Latn",
+     0.001
+    ]
+   ],
+   "target_lines": null,
+   "target_line_frac": null
+  },
+  {
+   "lang": "Lakota",
+   "iso": "lkt",
+   "family": "Siouan",
+   "url": "https://languageconservancy.org/learning-resources/",
+   "kind": "learning-portal",
+   "found_via": "WebSearch 2026-08-11: 'Lakota language website online dictionary Lakota Language Consortium new lakota dictionary'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://languageconservancy.org/learning-resources/",
+   "text_chars": 4105,
+   "n_lines": 94,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [],
+   "lid_label_exists": false,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.79
+    ],
+    [
+     "sco_Latn",
+     0.041
+    ],
+    [
+     "dag_Latn",
+     0.02
+    ]
+   ],
+   "target_lines": null,
+   "target_line_frac": null
+  },
+  {
+   "lang": "Mohawk",
+   "iso": "moh",
+   "family": "Iroquoian",
+   "url": "https://kanienkeha.net/page/42/",
+   "kind": "community",
+   "found_via": "WebSearch 2026-08-11: 'Kanien'keha Mohawk language website online dictionary resources kanienkeha.net'",
+   "live": false,
+   "status": 522,
+   "final_url": "https://xoilac86zsz.io/page/42/",
+   "text_chars": 697,
+   "n_lines": 11,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "moh_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.998
+    ],
+    [
+     "sco_Latn",
+     0.0
+    ],
+    [
+     "pcm_Latn",
+     0.0
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Mohawk",
+   "iso": "moh",
+   "family": "Iroquoian",
+   "url": "https://www.firstvoices.com/kanienkeha-mohawk-en/words",
+   "kind": "hub-page",
+   "found_via": "WebSearch 2026-08-11: 'Kanien'keha Mohawk language website online dictionary resources kanienkeha.net'",
+   "note": "FirstVoices: one domain hosting many language communities",
+   "live": true,
+   "status": 200,
+   "final_url": "https://www.firstvoices.com/kanienkeha-mohawk-en/words",
+   "text_chars": 0,
+   "n_lines": 0,
+   "js_app_suspect": true,
+   "glotlid_labels_for_iso": [
+    "moh_Latn"
+   ],
+   "lid_label_exists": true
+  },
+  {
+   "lang": "Mohawk",
+   "iso": "moh",
+   "family": "Iroquoian",
+   "url": "https://www.native-languages.org/mohawk_words.htm",
+   "kind": "learning-portal",
+   "found_via": "WebSearch 2026-08-11: 'Kanien'keha Mohawk language website online dictionary resources kanienkeha.net'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://www.native-languages.org/mohawk_words.htm",
+   "text_chars": 1237,
+   "n_lines": 30,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "moh_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.988
+    ],
+    [
+     "pcm_Latn",
+     0.002
+    ],
+    [
+     "sco_Latn",
+     0.001
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Mohawk",
+   "iso": "moh",
+   "family": "Iroquoian",
+   "url": "http://mohawk.kanienkeha.free.fr/index_uk.htm",
+   "kind": "learning-portal",
+   "found_via": "WebSearch 2026-08-11: 'Kanien'keha Mohawk language website online dictionary resources kanienkeha.net'",
+   "live": true,
+   "status": 200,
+   "final_url": "http://mohawk.kanienkeha.free.fr/index_uk.htm",
+   "text_chars": 56,
+   "n_lines": 1,
+   "js_app_suspect": true,
+   "glotlid_labels_for_iso": [
+    "moh_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.412
+    ],
+    [
+     "lat_Latn",
+     0.146
+    ],
+    [
+     "ita_Latn",
+     0.079
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Choctaw",
+   "iso": "cho",
+   "family": "Muskogean",
+   "url": "https://www.choctawschool.com/",
+   "kind": "official-program",
+   "found_via": "WebSearch 2026-08-11: 'Choctaw Nation language school online lessons chahta anumpa website' (choctawschool.com named in choctawnation.com result)",
+   "live": true,
+   "status": 200,
+   "final_url": "https://www.choctawnation.com/about/language/",
+   "text_chars": 2546,
+   "n_lines": 23,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "cho_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.981
+    ],
+    [
+     "cbk_Latn",
+     0.002
+    ],
+    [
+     "gom_Latn",
+     0.001
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Choctaw",
+   "iso": "cho",
+   "family": "Muskogean",
+   "url": "https://www.choctawnation.com/about/language/",
+   "kind": "official-program",
+   "found_via": "WebSearch 2026-08-11: 'Choctaw Nation language school online lessons chahta anumpa website'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://www.choctawnation.com/about/language/",
+   "text_chars": 2546,
+   "n_lines": 23,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "cho_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.981
+    ],
+    [
+     "cbk_Latn",
+     0.002
+    ],
+    [
+     "gom_Latn",
+     0.001
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Chickasaw",
+   "iso": "cic",
+   "family": "Muskogean",
+   "url": "https://anompa.chickasaw.net/",
+   "kind": "official-program",
+   "found_via": "WebSearch 2026-08-11: 'Chickasaw language website anompa online lessons chickasaw.net' (anompa.chickasaw.net hosts self-study PDF)",
+   "live": true,
+   "status": 200,
+   "final_url": "https://anompa.chickasaw.net/anompa/index.html",
+   "text_chars": 51,
+   "n_lines": 2,
+   "js_app_suspect": true,
+   "glotlid_labels_for_iso": [],
+   "lid_label_exists": false,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.381
+    ],
+    [
+     "por_Latn",
+     0.2
+    ],
+    [
+     "deu_Latn",
+     0.081
+    ]
+   ],
+   "target_lines": null,
+   "target_line_frac": null
+  },
+  {
+   "lang": "Chickasaw",
+   "iso": "cic",
+   "family": "Muskogean",
+   "url": "https://www.chickasaw.net/our-nation/culture/language.aspx",
+   "kind": "official-program",
+   "found_via": "WebSearch 2026-08-11: 'Chickasaw language website anompa online lessons chickasaw.net'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://www.chickasaw.net/our-nation/culture/language.aspx",
+   "text_chars": 6038,
+   "n_lines": 67,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [],
+   "lid_label_exists": false,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.996
+    ],
+    [
+     "sco_Latn",
+     0.001
+    ],
+    [
+     "gom_Latn",
+     0.0
+    ]
+   ],
+   "target_lines": null,
+   "target_line_frac": null
+  },
+  {
+   "lang": "Muscogee",
+   "iso": "mus",
+   "family": "Muskogean",
+   "url": "https://www.muscogeenation.com/det/mlp/",
+   "kind": "official-program",
+   "found_via": "WebSearch 2026-08-11: 'Muscogee Creek Nation Mvskoke language program website online'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://www.muscogeenation.com/det/mlp/",
+   "text_chars": 11483,
+   "n_lines": 282,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "mus_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.497
+    ],
+    [
+     "dag_Latn",
+     0.04
+    ],
+    [
+     "swe_Latn",
+     0.03
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Muscogee",
+   "iso": "mus",
+   "family": "Muskogean",
+   "url": "https://muskogee.pages.wm.edu/learning/",
+   "kind": "learning-portal",
+   "found_via": "WebSearch 2026-08-11: 'Muscogee Creek Nation Mvskoke language program website online'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://muskogee.pages.wm.edu/learning/",
+   "text_chars": 2433,
+   "n_lines": 74,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "mus_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.268
+    ],
+    [
+     "sco_Latn",
+     0.058
+    ],
+    [
+     "nds_Latn",
+     0.055
+    ]
+   ],
+   "target_lines": 22,
+   "target_line_frac": 0.297
+  },
+  {
+   "lang": "Navajo",
+   "iso": "nav",
+   "family": "Athabaskan",
+   "url": "https://navajo-dictionary.com/",
+   "kind": "dictionary",
+   "found_via": "WebSearch 2026-08-11: 'Navajo language Dine bizaad online dictionary website'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://navajo-dictionary.com/",
+   "text_chars": 1349,
+   "n_lines": 22,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "nav_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.991
+    ],
+    [
+     "sco_Latn",
+     0.002
+    ],
+    [
+     "cbk_Latn",
+     0.001
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Navajo",
+   "iso": "nav",
+   "family": "Athabaskan",
+   "url": "https://opvp.navajo-nsn.gov/dine-bizaad/vocabulary/",
+   "kind": "official-program",
+   "found_via": "WebSearch 2026-08-11: 'Navajo language Dine bizaad online dictionary website'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://opvp.navajo-nsn.gov/dine-bizaad/vocabulary/",
+   "text_chars": 1029,
+   "n_lines": 20,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "nav_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.898
+    ],
+    [
+     "sco_Latn",
+     0.01
+    ],
+    [
+     "dag_Latn",
+     0.007
+    ]
+   ],
+   "target_lines": 1,
+   "target_line_frac": 0.05
+  },
+  {
+   "lang": "Arapaho",
+   "iso": "arp",
+   "family": "Algonquian",
+   "url": "https://verbs.colorado.edu/ArapahoLanguageProject/",
+   "kind": "learning-portal",
+   "found_via": "WebSearch 2026-08-11: 'Arapaho language project online lessons dictionary Colorado'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://verbs.colorado.edu/ArapahoLanguageProject/",
+   "text_chars": 1326,
+   "n_lines": 24,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "arp_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.993
+    ],
+    [
+     "pcm_Latn",
+     0.0
+    ],
+    [
+     "sco_Latn",
+     0.0
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Arapaho",
+   "iso": "arp",
+   "family": "Algonquian",
+   "url": "https://www.colorado.edu/project/arapaho/language/common-arapaho-words",
+   "kind": "learning-portal",
+   "found_via": "WebSearch 2026-08-11: 'Arapaho language project online lessons dictionary Colorado'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://www.colorado.edu/project/arapaho/language/common-arapaho-words",
+   "text_chars": 644,
+   "n_lines": 21,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "arp_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.613
+    ],
+    [
+     "sco_Latn",
+     0.051
+    ],
+    [
+     "dag_Latn",
+     0.04
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Arapaho",
+   "iso": "arp",
+   "family": "Algonquian",
+   "url": "https://www.colorado.edu/project/arapaho/language/dictionary",
+   "kind": "dictionary",
+   "found_via": "WebSearch 2026-08-11: 'Arapaho language project online lessons dictionary Colorado'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://www.colorado.edu/project/arapaho/language/dictionary",
+   "text_chars": 279226,
+   "n_lines": 2940,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "arp_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.708
+    ],
+    [
+     "sco_Latn",
+     0.054
+    ],
+    [
+     "som_Latn",
+     0.053
+    ]
+   ],
+   "target_lines": 1,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Osage",
+   "iso": "osa",
+   "family": "Siouan",
+   "url": "https://www.osageculture.com/language",
+   "kind": "official-program",
+   "found_via": "WebSearch 2026-08-11: 'Osage Nation language department website online Wahzhazhe'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://www.osageculture.com/language",
+   "text_chars": 3325,
+   "n_lines": 59,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [],
+   "lid_label_exists": false,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.994
+    ],
+    [
+     "sco_Latn",
+     0.001
+    ],
+    [
+     "pcm_Latn",
+     0.0
+    ]
+   ],
+   "target_lines": null,
+   "target_line_frac": null
+  },
+  {
+   "lang": "Osage",
+   "iso": "osa",
+   "family": "Siouan",
+   "url": "https://www.osagenation-nsn.gov/who-we-are/language-department",
+   "kind": "official-program",
+   "found_via": "WebSearch 2026-08-11: 'Osage Nation language department website online Wahzhazhe'",
+   "live": false,
+   "status": 403,
+   "final_url": "https://www.osagenation-nsn.gov/who-we-are/language-department",
+   "text_chars": 2188,
+   "n_lines": 81,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [],
+   "lid_label_exists": false,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.664
+    ],
+    [
+     "dag_Latn",
+     0.029
+    ],
+    [
+     "deu_Latn",
+     0.024
+    ]
+   ],
+   "target_lines": null,
+   "target_line_frac": null
+  },
+  {
+   "lang": "Osage",
+   "iso": "osa",
+   "family": "Siouan",
+   "url": "https://www.osageculture.com/node/72",
+   "kind": "learning-portal",
+   "found_via": "WebSearch 2026-08-11: 'Osage Nation language department website online Wahzhazhe'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://www.osageculture.com/node/72",
+   "text_chars": 1305,
+   "n_lines": 49,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [],
+   "lid_label_exists": false,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.653
+    ],
+    [
+     "dag_Latn",
+     0.055
+    ],
+    [
+     "deu_Latn",
+     0.021
+    ]
+   ],
+   "target_lines": null,
+   "target_line_frac": null
+  },
+  {
+   "lang": "Blackfoot",
+   "iso": "bla",
+   "family": "Algonquian",
+   "url": "https://dictionary.blackfoot.atlas-ling.ca/",
+   "kind": "dictionary",
+   "found_via": "WebSearch 2026-08-11: 'Blackfoot online dictionary Siksika language website atlas'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://dictionary.blackfoot.atlas-ling.ca/",
+   "text_chars": 233,
+   "n_lines": 7,
+   "js_app_suspect": true,
+   "glotlid_labels_for_iso": [
+    "bla_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.603
+    ],
+    [
+     "dag_Latn",
+     0.253
+    ],
+    [
+     "nld_Latn",
+     0.013
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Blackfoot",
+   "iso": "bla",
+   "family": "Algonquian",
+   "url": "https://blackfoot.algonquianlanguages.ca/",
+   "kind": "learning-portal",
+   "found_via": "WebSearch 2026-08-11: 'Blackfoot online dictionary Siksika language website atlas'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://blackfoot.algonquianlanguages.ca/",
+   "text_chars": 2612,
+   "n_lines": 43,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "bla_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.977
+    ],
+    [
+     "sco_Latn",
+     0.002
+    ],
+    [
+     "dag_Latn",
+     0.002
+    ]
+   ],
+   "target_lines": 1,
+   "target_line_frac": 0.023
+  },
+  {
+   "lang": "Plains Cree",
+   "iso": "crk",
+   "family": "Algonquian",
+   "url": "https://itwewina.altlab.app/",
+   "kind": "dictionary",
+   "found_via": "WebSearch 2026-08-11: 'Plains Cree online dictionary itwewina nehiyawewin website'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://itwewina.altlab.app/",
+   "text_chars": 966,
+   "n_lines": 28,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "crk_Cans",
+    "crk_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.927
+    ],
+    [
+     "sco_Latn",
+     0.023
+    ],
+    [
+     "dag_Latn",
+     0.01
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Plains Cree",
+   "iso": "crk",
+   "family": "Algonquian",
+   "url": "https://www.creedictionary.com/about.php",
+   "kind": "dictionary",
+   "found_via": "WebSearch 2026-08-11: 'Plains Cree online dictionary itwewina nehiyawewin website'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://www.creedictionary.com/about.php",
+   "text_chars": 4210,
+   "n_lines": 43,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "crk_Cans",
+    "crk_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.992
+    ],
+    [
+     "sco_Latn",
+     0.002
+    ],
+    [
+     "dag_Latn",
+     0.001
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Plains Cree",
+   "iso": "crk",
+   "family": "Algonquian",
+   "url": "https://plainscree.algonquianlanguages.ca/resources/dictionaries-and-grammars/",
+   "kind": "learning-portal",
+   "found_via": "WebSearch 2026-08-11: 'Plains Cree online dictionary itwewina nehiyawewin website'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://plainscree.algonquianlanguages.ca/resources/dictionaries-and-grammars/",
+   "text_chars": 3210,
+   "n_lines": 47,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "crk_Cans",
+    "crk_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.966
+    ],
+    [
+     "sco_Latn",
+     0.013
+    ],
+    [
+     "dag_Latn",
+     0.007
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Tlingit",
+   "iso": "tli",
+   "family": "Na-Dene",
+   "url": "https://sealaskaheritage.org/shi-language-department/",
+   "kind": "official-program",
+   "found_via": "WebSearch 2026-08-11: 'Tlingit language resources website Sealaska Heritage online lessons'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://sealaskaheritage.org/shi-language-department/",
+   "text_chars": 25360,
+   "n_lines": 220,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [],
+   "lid_label_exists": false,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.971
+    ],
+    [
+     "dag_Latn",
+     0.003
+    ],
+    [
+     "sco_Latn",
+     0.001
+    ]
+   ],
+   "target_lines": null,
+   "target_line_frac": null
+  },
+  {
+   "lang": "Tlingit",
+   "iso": "tli",
+   "family": "Na-Dene",
+   "url": "https://www.sealaska.com/language/",
+   "kind": "official-program",
+   "found_via": "WebSearch 2026-08-11: 'Tlingit language resources website Sealaska Heritage online lessons'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://www.sealaska.com/language/",
+   "text_chars": 2467,
+   "n_lines": 29,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [],
+   "lid_label_exists": false,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.993
+    ],
+    [
+     "dag_Latn",
+     0.001
+    ],
+    [
+     "sco_Latn",
+     0.001
+    ]
+   ],
+   "target_lines": null,
+   "target_line_frac": null
+  },
+  {
+   "lang": "Central Alaskan Yup'ik",
+   "iso": "esu",
+   "family": "Eskimo-Aleut",
+   "url": "https://www.uaf.edu/anla/collections/dictionaries/",
+   "kind": "learning-portal",
+   "found_via": "WebSearch 2026-08-11: 'Yugtun Yup'ik language online dictionary Alaska Native Language Center website'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://www.uaf.edu/anla/collections/dictionaries/",
+   "text_chars": 3612,
+   "n_lines": 73,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "esu_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.275
+    ],
+    [
+     "sco_Latn",
+     0.201
+    ],
+    [
+     "dag_Latn",
+     0.188
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Potawatomi",
+   "iso": "pot",
+   "family": "Algonquian",
+   "url": "https://www.potawatomiheritage.com/language/language-dept/",
+   "kind": "official-program",
+   "found_via": "WebSearch 2026-08-11: 'Potawatomi language online dictionary lessons wnalc bodwewadmimwen'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://www.potawatomiheritage.com/language/language-dept/",
+   "text_chars": 1464,
+   "n_lines": 18,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "pot_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.98
+    ],
+    [
+     "pcm_Latn",
+     0.003
+    ],
+    [
+     "sco_Latn",
+     0.002
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Potawatomi",
+   "iso": "pot",
+   "family": "Algonquian",
+   "url": "https://ojibwe.net/t/bodewadmimwen/",
+   "kind": "community",
+   "found_via": "WebSearch 2026-08-11: 'Potawatomi language online dictionary lessons wnalc bodwewadmimwen'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://ojibwe.net/t/bodewadmimwen/",
+   "text_chars": 814,
+   "n_lines": 23,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "pot_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.398
+    ],
+    [
+     "ind_Latn",
+     0.079
+    ],
+    [
+     "atj_Latn",
+     0.039
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Potawatomi",
+   "iso": "pot",
+   "family": "Algonquian",
+   "url": "https://www.potawatomi.org/blog/2020/11/13/potawatomi-language-learning-tips/",
+   "kind": "official-program",
+   "found_via": "WebSearch 2026-08-11: 'Potawatomi language online dictionary lessons wnalc bodwewadmimwen'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://www.potawatomi.org/blog/2020/11/13/potawatomi-language-learning-tips/",
+   "text_chars": 4654,
+   "n_lines": 41,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [
+    "pot_Latn"
+   ],
+   "lid_label_exists": true,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.997
+    ],
+    [
+     "gom_Latn",
+     0.0
+    ],
+    [
+     "pcm_Latn",
+     0.0
+    ]
+   ],
+   "target_lines": 0,
+   "target_line_frac": 0.0
+  },
+  {
+   "lang": "Menominee",
+   "iso": "mez",
+   "family": "Algonquian",
+   "url": "https://menomineelanguage.com/",
+   "kind": "community",
+   "found_via": "WebSearch 2026-08-11: 'Menominee language online dictionary revitalization website omaeqnomenew'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://menomineelanguage.com/",
+   "text_chars": 1033,
+   "n_lines": 20,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [],
+   "lid_label_exists": false,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.895
+    ],
+    [
+     "swh_Latn",
+     0.005
+    ],
+    [
+     "pcm_Latn",
+     0.005
+    ]
+   ],
+   "target_lines": null,
+   "target_line_frac": null
+  },
+  {
+   "lang": "Menominee",
+   "iso": "mez",
+   "family": "Algonquian",
+   "url": "https://menominee.libguides.com/c.php?g=798447&p=5708632",
+   "kind": "learning-portal",
+   "found_via": "WebSearch 2026-08-11: 'Menominee language online dictionary revitalization website omaeqnomenew'",
+   "live": true,
+   "status": 200,
+   "final_url": "https://menominee.libguides.com/c.php?g=798447&p=5708632",
+   "text_chars": 2548,
+   "n_lines": 55,
+   "js_app_suspect": false,
+   "glotlid_labels_for_iso": [],
+   "lid_label_exists": false,
+   "doc_lid_top3": [
+    [
+     "eng_Latn",
+     0.847
+    ],
+    [
+     "dag_Latn",
+     0.015
+    ],
+    [
+     "ind_Latn",
+     0.01
+    ]
+   ],
+   "target_lines": null,
+   "target_line_frac": null
+  }
+ ]
+}

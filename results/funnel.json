@@ -1,0 +1,400 @@
+{
+ "config": {
+  "script": "src/plots/make_funnel.py",
+  "git_hash": "15945c4",
+  "run_unix": 1789860752
+ },
+ "categories": [
+  "S1:never_crawled",
+  "S1:no_200",
+  "S2:label_missing",
+  "S2:routed_elsewhere",
+  "S3:killed",
+  "S4:absent",
+  "S4:present"
+ ],
+ "content_rows": [
+  {
+   "iso": "arp",
+   "lang": "Arapaho",
+   "domain": "www.colorado.edu",
+   "url": "https://www.colorado.edu/project/arapaho/language/dictionary",
+   "target_lines": 3,
+   "target_line_frac": 0.001,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "bla",
+   "lang": "Blackfoot",
+   "domain": "blackfoot.algonquianlanguages.ca",
+   "url": "https://blackfoot.algonquianlanguages.ca/grammar/",
+   "target_lines": 3,
+   "target_line_frac": 0.107,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "chr",
+   "lang": "Cherokee",
+   "domain": "language.cherokee.org",
+   "url": "https://language.cherokee.org/fonts-and-keyboards/",
+   "target_lines": 1,
+   "target_line_frac": 0.017,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "chr",
+   "lang": "Cherokee",
+   "domain": "www.cherokeedictionary.net",
+   "url": "https://www.cherokeedictionary.net/first500",
+   "target_lines": 11,
+   "target_line_frac": 0.052,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "ciw",
+   "lang": "Ojibwe",
+   "domain": "ojibwe.lib.umn.edu",
+   "url": "https://ojibwe.lib.umn.edu/",
+   "target_lines": 5,
+   "target_line_frac": 0.066,
+   "attribution": "S2:label_missing"
+  },
+  {
+   "iso": "ciw",
+   "lang": "Ojibwe",
+   "domain": "ojibwe.net",
+   "url": "https://ojibwe.net/lessons/",
+   "target_lines": 2,
+   "target_line_frac": 0.118,
+   "attribution": "S2:label_missing"
+  },
+  {
+   "iso": "crk",
+   "lang": "Plains Cree",
+   "domain": "itwewina.altlab.app",
+   "url": "https://itwewina.altlab.app/",
+   "target_lines": 1,
+   "target_line_frac": 0.036,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "crk",
+   "lang": "Plains Cree",
+   "domain": "plainscree.algonquianlanguages.ca",
+   "url": "https://plainscree.algonquianlanguages.ca/",
+   "target_lines": 1,
+   "target_line_frac": 0.048,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "esu",
+   "lang": "Central Alaskan Yup'ik",
+   "domain": "www.uaf.edu",
+   "url": "https://www.uaf.edu/anla/collections/dictionaries/",
+   "target_lines": 1,
+   "target_line_frac": 0.014,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "mus",
+   "lang": "Muscogee",
+   "domain": "muskogee.pages.wm.edu",
+   "url": "https://muskogee.pages.wm.edu/learning/",
+   "target_lines": 25,
+   "target_line_frac": 0.338,
+   "attribution": "S3:killed"
+  },
+  {
+   "iso": "nav",
+   "lang": "Navajo",
+   "domain": "opvp.navajo-nsn.gov",
+   "url": "https://opvp.navajo-nsn.gov/dine-bizaad/vocabulary/",
+   "target_lines": 1,
+   "target_line_frac": 0.05,
+   "attribution": "S1:never_crawled"
+  }
+ ],
+ "content_attribution": {
+  "S2:routed_elsewhere": 7,
+  "S2:label_missing": 2,
+  "S3:killed": 1,
+  "S1:never_crawled": 1
+ },
+ "institutional_rows": [
+  {
+   "iso": "chr",
+   "url": "https://language.cherokee.org/",
+   "domain": "language.cherokee.org",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "chr",
+   "url": "https://www.cherokeedictionary.net/",
+   "domain": "www.cherokeedictionary.net",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "chr",
+   "url": "https://learn.cherokee.org/",
+   "domain": "learn.cherokee.org",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "ciw",
+   "url": "https://ojibwe.lib.umn.edu/",
+   "domain": "ojibwe.lib.umn.edu",
+   "js_app_suspect": false,
+   "attribution": "S2:label_missing"
+  },
+  {
+   "iso": "ciw",
+   "url": "https://ojibwe.lib.umn.edu/browse/ojibwe",
+   "domain": "ojibwe.lib.umn.edu",
+   "js_app_suspect": false,
+   "attribution": "S2:label_missing"
+  },
+  {
+   "iso": "ciw",
+   "url": "https://ojibwe.net/c/dictionary/",
+   "domain": "ojibwe.net",
+   "js_app_suspect": false,
+   "attribution": "S2:label_missing"
+  },
+  {
+   "iso": "lkt",
+   "url": "https://lakhota.org/",
+   "domain": "lakhota.org",
+   "js_app_suspect": false,
+   "attribution": "S2:label_missing"
+  },
+  {
+   "iso": "lkt",
+   "url": "https://languageconservancy.org/learning-resources/",
+   "domain": "languageconservancy.org",
+   "js_app_suspect": false,
+   "attribution": "S2:label_missing"
+  },
+  {
+   "iso": "moh",
+   "url": "https://www.firstvoices.com/kanienkeha-mohawk-en/words",
+   "domain": "www.firstvoices.com",
+   "js_app_suspect": true,
+   "attribution": "S1:never_crawled"
+  },
+  {
+   "iso": "moh",
+   "url": "https://www.native-languages.org/mohawk_words.htm",
+   "domain": "www.native-languages.org",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "moh",
+   "url": "http://mohawk.kanienkeha.free.fr/index_uk.htm",
+   "domain": "mohawk.kanienkeha.free.fr",
+   "js_app_suspect": true,
+   "attribution": "S1:never_crawled"
+  },
+  {
+   "iso": "cho",
+   "url": "https://www.choctawschool.com/",
+   "domain": "www.choctawschool.com",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "cho",
+   "url": "https://www.choctawnation.com/about/language/",
+   "domain": "www.choctawnation.com",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "cic",
+   "url": "https://anompa.chickasaw.net/",
+   "domain": "anompa.chickasaw.net",
+   "js_app_suspect": true,
+   "attribution": "S1:no_200"
+  },
+  {
+   "iso": "cic",
+   "url": "https://www.chickasaw.net/our-nation/culture/language.aspx",
+   "domain": "www.chickasaw.net",
+   "js_app_suspect": false,
+   "attribution": "S2:label_missing"
+  },
+  {
+   "iso": "mus",
+   "url": "https://www.muscogeenation.com/det/mlp/",
+   "domain": "www.muscogeenation.com",
+   "js_app_suspect": false,
+   "attribution": "S1:never_crawled"
+  },
+  {
+   "iso": "mus",
+   "url": "https://muskogee.pages.wm.edu/learning/",
+   "domain": "muskogee.pages.wm.edu",
+   "js_app_suspect": false,
+   "attribution": "S3:killed"
+  },
+  {
+   "iso": "nav",
+   "url": "https://navajo-dictionary.com/",
+   "domain": "navajo-dictionary.com",
+   "js_app_suspect": false,
+   "attribution": "S1:never_crawled"
+  },
+  {
+   "iso": "nav",
+   "url": "https://opvp.navajo-nsn.gov/dine-bizaad/vocabulary/",
+   "domain": "opvp.navajo-nsn.gov",
+   "js_app_suspect": false,
+   "attribution": "S1:never_crawled"
+  },
+  {
+   "iso": "arp",
+   "url": "https://verbs.colorado.edu/ArapahoLanguageProject/",
+   "domain": "verbs.colorado.edu",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "arp",
+   "url": "https://www.colorado.edu/project/arapaho/language/common-arapaho-words",
+   "domain": "www.colorado.edu",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "arp",
+   "url": "https://www.colorado.edu/project/arapaho/language/dictionary",
+   "domain": "www.colorado.edu",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "osa",
+   "url": "https://www.osageculture.com/language",
+   "domain": "www.osageculture.com",
+   "js_app_suspect": false,
+   "attribution": "S2:label_missing"
+  },
+  {
+   "iso": "osa",
+   "url": "https://www.osageculture.com/node/72",
+   "domain": "www.osageculture.com",
+   "js_app_suspect": false,
+   "attribution": "S1:never_crawled"
+  },
+  {
+   "iso": "bla",
+   "url": "https://dictionary.blackfoot.atlas-ling.ca/",
+   "domain": "dictionary.blackfoot.atlas-ling.ca",
+   "js_app_suspect": true,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "bla",
+   "url": "https://blackfoot.algonquianlanguages.ca/",
+   "domain": "blackfoot.algonquianlanguages.ca",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "crk",
+   "url": "https://itwewina.altlab.app/",
+   "domain": "itwewina.altlab.app",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "crk",
+   "url": "https://www.creedictionary.com/about.php",
+   "domain": "www.creedictionary.com",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "crk",
+   "url": "https://plainscree.algonquianlanguages.ca/resources/dictionaries-and-grammars/",
+   "domain": "plainscree.algonquianlanguages.ca",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "tli",
+   "url": "https://sealaskaheritage.org/shi-language-department/",
+   "domain": "sealaskaheritage.org",
+   "js_app_suspect": false,
+   "attribution": "S2:label_missing"
+  },
+  {
+   "iso": "tli",
+   "url": "https://www.sealaska.com/language/",
+   "domain": "www.sealaska.com",
+   "js_app_suspect": false,
+   "attribution": "S2:label_missing"
+  },
+  {
+   "iso": "esu",
+   "url": "https://www.uaf.edu/anla/collections/dictionaries/",
+   "domain": "www.uaf.edu",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "pot",
+   "url": "https://www.potawatomiheritage.com/language/language-dept/",
+   "domain": "www.potawatomiheritage.com",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "pot",
+   "url": "https://ojibwe.net/t/bodewadmimwen/",
+   "domain": "ojibwe.net",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "pot",
+   "url": "https://www.potawatomi.org/blog/2020/11/13/potawatomi-language-learning-tips/",
+   "domain": "www.potawatomi.org",
+   "js_app_suspect": false,
+   "attribution": "S2:routed_elsewhere"
+  },
+  {
+   "iso": "mez",
+   "url": "https://menomineelanguage.com/",
+   "domain": "menomineelanguage.com",
+   "js_app_suspect": false,
+   "attribution": "S2:label_missing"
+  },
+  {
+   "iso": "mez",
+   "url": "https://menominee.libguides.com/c.php?g=798447&p=5708632",
+   "domain": "menominee.libguides.com",
+   "js_app_suspect": false,
+   "attribution": "S1:never_crawled"
+  }
+ ],
+ "institutional_attribution": {
+  "S2:routed_elsewhere": 18,
+  "S2:label_missing": 10,
+  "S1:never_crawled": 7,
+  "S1:no_200": 1,
+  "S3:killed": 1
+ },
+ "s1_never_definitive": {
+  "content": 1,
+  "institutional": 7
+ },
+ "robots_summary": {
+  "hosts": 36,
+  "ccbot_blocked_all": 1,
+  "star_blocked_all": 0
+ }
+}

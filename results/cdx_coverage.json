@@ -1,0 +1,6814 @@
+{
+ "config": {
+  "script": "src/cdx_coverage.py",
+  "crawls": [
+   "CC-MAIN-2026-30",
+   "CC-MAIN-2026-25",
+   "CC-MAIN-2026-21",
+   "CC-MAIN-2026-17",
+   "CC-MAIN-2025-51",
+   "CC-MAIN-2025-47",
+   "CC-MAIN-2025-43",
+   "CC-MAIN-2025-38",
+   "CC-MAIN-2025-33",
+   "CC-MAIN-2025-30",
+   "CC-MAIN-2025-26",
+   "CC-MAIN-2025-21",
+   "CC-MAIN-2025-18",
+   "CC-MAIN-2025-13",
+   "CC-MAIN-2025-08",
+   "CC-MAIN-2025-05",
+   "CC-MAIN-2024-51",
+   "CC-MAIN-2024-46",
+   "CC-MAIN-2024-42",
+   "CC-MAIN-2024-38",
+   "CC-MAIN-2024-33",
+   "CC-MAIN-2024-30",
+   "CC-MAIN-2024-26",
+   "CC-MAIN-2024-22",
+   "CC-MAIN-2024-18",
+   "CC-MAIN-2024-10",
+   "CC-MAIN-2023-50",
+   "CC-MAIN-2023-40",
+   "CC-MAIN-2023-23",
+   "CC-MAIN-2023-14",
+   "CC-MAIN-2023-06",
+   "CC-MAIN-2022-49",
+   "CC-MAIN-2021-49",
+   "CC-MAIN-2020-50",
+   "CC-MAIN-2019-51",
+   "CC-MAIN-2018-51",
+   "CC-MAIN-2017-51",
+   "CC-MAIN-2016-50",
+   "CC-MAIN-2015-48",
+   "CC-MAIN-2014-52",
+   "CC-MAIN-2013-48"
+  ],
+  "fl": "timestamp,status,mime,digest,length,filename,offset",
+  "git_hash": "d5b7585",
+  "run_unix": 1786535400,
+  "expansion": {
+   "script": "src/cdx_expand.py",
+   "rule": "all 2023-2025 crawls + two newest 2026 + one per year 2013-2022; re-queried only URLs lacking a 200 capture",
+   "git_hash": "15945c4",
+   "run_unix": 1789860703,
+   "runtime_s": 1754.4
+  }
+ },
+ "runtime_s": 326.6,
+ "host_presence": {
+  "anompa.chickasaw.net": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "blackfoot.algonquianlanguages.ca": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "dictionary.blackfoot.atlas-ling.ca": {
+   "CC-MAIN-2026-30": false,
+   "CC-MAIN-2026-25": false,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": false,
+   "CC-MAIN-2023-50": true
+  },
+  "itwewina.altlab.app": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "kanienkeha.net": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "lakhota.org": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "language.cherokee.org": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "languageconservancy.org": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "learn.cherokee.org": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "menominee.libguides.com": {
+   "CC-MAIN-2026-30": false,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "menomineelanguage.com": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "mohawk.kanienkeha.free.fr": {
+   "CC-MAIN-2026-30": false,
+   "CC-MAIN-2026-25": false,
+   "CC-MAIN-2026-21": false,
+   "CC-MAIN-2026-17": false,
+   "CC-MAIN-2024-51": false,
+   "CC-MAIN-2023-50": false
+  },
+  "muskogee.pages.wm.edu": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "navajo-dictionary.com": {
+   "CC-MAIN-2026-30": false,
+   "CC-MAIN-2026-25": false,
+   "CC-MAIN-2026-21": false,
+   "CC-MAIN-2026-17": false,
+   "CC-MAIN-2024-51": false,
+   "CC-MAIN-2023-50": false
+  },
+  "ojibwe.lib.umn.edu": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "ojibwe.net": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "opvp.navajo-nsn.gov": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "plainscree.algonquianlanguages.ca": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "sealaskaheritage.org": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "verbs.colorado.edu": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "www.cherokeedictionary.net": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "www.cherokeelessons.com": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "www.chickasaw.net": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "www.choctawnation.com": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "www.choctawschool.com": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": false,
+   "CC-MAIN-2026-21": false,
+   "CC-MAIN-2026-17": false,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "www.colorado.edu": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "www.creedictionary.com": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "www.firstvoices.com": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "www.muscogeenation.com": {
+   "CC-MAIN-2026-30": false,
+   "CC-MAIN-2026-25": false,
+   "CC-MAIN-2026-21": false,
+   "CC-MAIN-2026-17": false,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "www.native-languages.org": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "www.osageculture.com": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "www.osagenation-nsn.gov": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "www.potawatomi.org": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "www.potawatomiheritage.com": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "www.sealaska.com": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  },
+  "www.uaf.edu": {
+   "CC-MAIN-2026-30": true,
+   "CC-MAIN-2026-25": true,
+   "CC-MAIN-2026-21": true,
+   "CC-MAIN-2026-17": true,
+   "CC-MAIN-2024-51": true,
+   "CC-MAIN-2023-50": true
+  }
+ },
+ "url_captures": {
+  "https://language.cherokee.org/": {
+   "CC-MAIN-2026-30": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260716173830",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "MUFTOYEU5TYM7TILBE5JR6ZXLOVL3PJ4",
+     "length": "7403",
+     "filename": "crawl-data/CC-MAIN-2026-30/segments/1783663951829.94/warc/CC-MAIN-20260716160835-20260716190835-00565.warc.gz",
+     "offset": "318246067"
+    }
+   },
+   "CC-MAIN-2026-25": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260610004111",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "MUFTOYEU5TYM7TILBE5JR6ZXLOVL3PJ4",
+     "length": "7419",
+     "filename": "crawl-data/CC-MAIN-2026-25/segments/1780687572521.56/warc/CC-MAIN-20260609231516-20260610021516-00565.warc.gz",
+     "offset": "299359274"
+    }
+   },
+   "CC-MAIN-2026-21": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260509165828",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "RHALMV6EQ3NVMFML23SNUHRKZGP3ZQA4",
+     "length": "7395",
+     "filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00774.warc.gz",
+     "offset": "14250240"
+    }
+   },
+   "CC-MAIN-2026-17": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260415193013",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "BTOZE5CPHYMTF4WIUR2CALHQNAAJYL7A",
+     "length": "7418",
+     "filename": "crawl-data/CC-MAIN-2026-17/segments/1775805908913.4/warc/CC-MAIN-20260415182819-20260415212819-00774.warc.gz",
+     "offset": "15777530"
+    }
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 3,
+    "statuses": [
+     "200",
+     "307"
+    ],
+    "latest_200": {
+     "timestamp": "20231210013738",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "A2C5PFMCZJ5HPY4ILFWUHKSPIZNXYCIS",
+     "length": "7406",
+     "filename": "crawl-data/CC-MAIN-2023-50/segments/1700679100989.75/warc/CC-MAIN-20231209233632-20231210023632-00565.warc.gz",
+     "offset": "346082802"
+    }
+   }
+  },
+  "https://www.cherokeedictionary.net/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 1,
+    "statuses": [
+     "403"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 1,
+    "statuses": [
+     "403"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 1,
+    "statuses": [
+     "403"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20241212235534",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "72KDOSJS6ESEVOWBFFZ2SVUODICV6T6M",
+     "length": "7399",
+     "filename": "crawl-data/CC-MAIN-2024-51/segments/1733066115058.17/warc/CC-MAIN-20241212221117-20241213011117-00860.warc.gz",
+     "offset": "150323824"
+    }
+   },
+   "CC-MAIN-2023-50": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20231211192534",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "4EQNH5KW26WZLUGDRFLT53OZ6QK2JG77",
+     "length": "7360",
+     "filename": "crawl-data/CC-MAIN-2023-50/segments/1700679516047.98/warc/CC-MAIN-20231211174901-20231211204901-00860.warc.gz",
+     "offset": "184496309"
+    }
+   }
+  },
+  "https://www.cherokeelessons.com/content/Cherokee-English-Dictionary-Online-Database/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 1,
+    "statuses": [
+     "304"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20240221052031",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "F2AL5VJACLRNEJWO4I35AZAC2EAXYYHH",
+     "length": "3491",
+     "filename": "crawl-data/CC-MAIN-2024-10/segments/1707947473370.18/warc/CC-MAIN-20240221034447-20240221064447-00793.warc.gz",
+     "offset": "721471989"
+    }
+   },
+   "CC-MAIN-2023-40": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-23": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20230610144405",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "LZGMYYPM7PUT53K7QNV37TXU2QQD2VEZ",
+     "length": "3490",
+     "filename": "crawl-data/CC-MAIN-2023-23/segments/1685224657720.82/warc/CC-MAIN-20230610131939-20230610161939-00193.warc.gz",
+     "offset": "760240243"
+    }
+   },
+   "CC-MAIN-2023-14": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-06": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20230127144024",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "65HW2EQM6AQGETXUKIN6QV3Q23Y7U75M",
+     "length": "3251",
+     "filename": "crawl-data/CC-MAIN-2023-06/segments/1674764494986.94/warc/CC-MAIN-20230127132641-20230127162641-00673.warc.gz",
+     "offset": "730276584"
+    }
+   },
+   "CC-MAIN-2022-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2021-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2020-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2015-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2014-52": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2013-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://learn.cherokee.org/": {
+   "CC-MAIN-2026-30": {
+    "n": 2,
+    "statuses": [
+     "200",
+     "302"
+    ],
+    "latest_200": {
+     "timestamp": "20260712222514",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "QS4JJHPF3T4AVUAV2NNLFEHY5X6MRJDO",
+     "length": "8431",
+     "filename": "crawl-data/CC-MAIN-2026-30/segments/1783663951621.75/warc/CC-MAIN-20260712202419-20260712232419-00369.warc.gz",
+     "offset": "261757920"
+    }
+   },
+   "CC-MAIN-2026-25": {
+    "n": 2,
+    "statuses": [
+     "200",
+     "302"
+    ],
+    "latest_200": {
+     "timestamp": "20260616152900",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "RSX3ZNIWFP5QYAPZ5X4TUIPN4PMYYI3R",
+     "length": "8738",
+     "filename": "crawl-data/CC-MAIN-2026-25/segments/1780687859863.64/warc/CC-MAIN-20260616142957-20260616172957-00369.warc.gz",
+     "offset": "269094623"
+    }
+   },
+   "CC-MAIN-2026-21": {
+    "n": 2,
+    "statuses": [
+     "200",
+     "302"
+    ],
+    "latest_200": {
+     "timestamp": "20260510051530",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "N5BOQTKEC2DL3QF2OB5OAMNEYMQRIGPU",
+     "length": "8717",
+     "filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377249.17/warc/CC-MAIN-20260510041830-20260510071830-00369.warc.gz",
+     "offset": "288988011"
+    }
+   },
+   "CC-MAIN-2026-17": {
+    "n": 2,
+    "statuses": [
+     "200",
+     "302"
+    ],
+    "latest_200": {
+     "timestamp": "20260421133638",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "XU7NQUBHA4B6ZV6JSERDE7NOWNLPNOBS",
+     "length": "8515",
+     "filename": "crawl-data/CC-MAIN-2026-17/segments/1775806207228.54/warc/CC-MAIN-20260421123315-20260421153315-00369.warc.gz",
+     "offset": "297664923"
+    }
+   },
+   "CC-MAIN-2024-51": {
+    "n": 2,
+    "statuses": [
+     "200",
+     "302"
+    ],
+    "latest_200": {
+     "timestamp": "20241203185000",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "JEDTZ5L4YO2ROTD7UBJHNGC6B7FKWY5C",
+     "length": "8746",
+     "filename": "crawl-data/CC-MAIN-2024-51/segments/1733066139248.64/warc/CC-MAIN-20241203163346-20241203193346-00069.warc.gz",
+     "offset": "332972361"
+    }
+   },
+   "CC-MAIN-2023-50": {
+    "n": 2,
+    "statuses": [
+     "200",
+     "302"
+    ],
+    "latest_200": {
+     "timestamp": "20231128225747",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "FJSENFWLBHEOW3JV2TJCBVR25PCWBPX2",
+     "length": "8939",
+     "filename": "crawl-data/CC-MAIN-2023-50/segments/1700679100016.39/warc/CC-MAIN-20231128214805-20231129004805-00069.warc.gz",
+     "offset": "429472194"
+    }
+   }
+  },
+  "https://ojibwe.lib.umn.edu/": {
+   "CC-MAIN-2026-30": {
+    "n": 6,
+    "statuses": [
+     "200",
+     "301"
+    ],
+    "latest_200": {
+     "timestamp": "20260722200158",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "CCDQ2ORE7JSVOYQ3W77V7ATZ5LR5SP7I",
+     "length": "8685",
+     "filename": "crawl-data/CC-MAIN-2026-30/segments/1783664247437.78/warc/CC-MAIN-20260722191031-20260722221031-00158.warc.gz",
+     "offset": "383806575"
+    }
+   },
+   "CC-MAIN-2026-25": {
+    "n": 6,
+    "statuses": [
+     "200",
+     "301"
+    ],
+    "latest_200": {
+     "timestamp": "20260617002153",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "WFYEY2JPKDS5KSJPYUKWBKRMLUZCWMHD",
+     "length": "8697",
+     "filename": "crawl-data/CC-MAIN-2026-25/segments/1780687861610.98/warc/CC-MAIN-20260616235429-20260617025429-00158.warc.gz",
+     "offset": "317438327"
+    }
+   },
+   "CC-MAIN-2026-21": {
+    "n": 4,
+    "statuses": [
+     "200",
+     "301"
+    ],
+    "latest_200": {
+     "timestamp": "20260515112744",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "3V7OPEI2V4KV34ILOZEXXDMVBFGPSWKL",
+     "length": "8698",
+     "filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377991.19/warc/CC-MAIN-20260515095540-20260515125540-00158.warc.gz",
+     "offset": "343611314"
+    }
+   },
+   "CC-MAIN-2026-17": {
+    "n": 5,
+    "statuses": [
+     "200",
+     "301"
+    ],
+    "latest_200": {
+     "timestamp": "20260415072701",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "WBUF2OXX7LY2A5KEQI2JS4KWJXGRWQ4J",
+     "length": "8698",
+     "filename": "crawl-data/CC-MAIN-2026-17/segments/1775805908886.5/warc/CC-MAIN-20260415055744-20260415085744-00158.warc.gz",
+     "offset": "377871275"
+    }
+   },
+   "CC-MAIN-2024-51": {
+    "n": 3,
+    "statuses": [
+     "200",
+     "301"
+    ],
+    "latest_200": {
+     "timestamp": "20241213183147",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "R2NUY27TVYKJ7MUMOYCTL2VZDP3O3NML",
+     "length": "8650",
+     "filename": "crawl-data/CC-MAIN-2024-51/segments/1733066119643.21/warc/CC-MAIN-20241213171153-20241213201153-00258.warc.gz",
+     "offset": "391715450"
+    }
+   },
+   "CC-MAIN-2023-50": {
+    "n": 3,
+    "statuses": [
+     "200",
+     "301"
+    ],
+    "latest_200": {
+     "timestamp": "20231211115817",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "4VP77PEISR4VOQFZGPIBQIGC46Q6J7ZD",
+     "length": "8580",
+     "filename": "crawl-data/CC-MAIN-2023-50/segments/1700679511159.96/warc/CC-MAIN-20231211112008-20231211142008-00258.warc.gz",
+     "offset": "470902663"
+    }
+   }
+  },
+  "https://ojibwe.lib.umn.edu/browse/ojibwe": {
+   "CC-MAIN-2026-30": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260721225552",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "RASXUGPRA3ILOKTJIL65CWE7EC6HA4BD",
+     "length": "8905",
+     "filename": "crawl-data/CC-MAIN-2026-30/segments/1783664245938.65/warc/CC-MAIN-20260721214844-20260722004844-00561.warc.gz",
+     "offset": "333417129"
+    }
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260516204830",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "J4UJJGWSMV2FGKDCSVRSIWZNCFH3TH5T",
+     "length": "8921",
+     "filename": "crawl-data/CC-MAIN-2026-21/segments/1778213673305.63/warc/CC-MAIN-20260516194321-20260516224321-00561.warc.gz",
+     "offset": "381302675"
+    }
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20241209165422",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "NEP6MIAD35VZK3WN24BY2IHAGF3LFLKK",
+     "length": "8775",
+     "filename": "crawl-data/CC-MAIN-2024-51/segments/1733066046748.1/warc/CC-MAIN-20241209152324-20241209182324-00261.warc.gz",
+     "offset": "410321006"
+    }
+   },
+   "CC-MAIN-2023-50": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20231201065307",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "CHCAJ26YUMBIEW7Q4CB7XPKVPQL5F6HC",
+     "length": "8680",
+     "filename": "crawl-data/CC-MAIN-2023-50/segments/1700679100276.12/warc/CC-MAIN-20231201053039-20231201083039-00261.warc.gz",
+     "offset": "508857785"
+    }
+   }
+  },
+  "https://ojibwe.net/c/dictionary/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260421230249",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "LWPZWLTEWUIYMUON6AYADQ2O4P2XAPIJ",
+     "length": "17852",
+     "filename": "crawl-data/CC-MAIN-2026-17/segments/1775806209686.88/warc/CC-MAIN-20260421215907-20260422005907-00231.warc.gz",
+     "offset": "332469743"
+    }
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://lakhota.org/": {
+   "CC-MAIN-2026-30": {
+    "n": 3,
+    "statuses": [
+     "200",
+     "301"
+    ],
+    "latest_200": {
+     "timestamp": "20260722050526",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "GAN4CIQ7X5Q2OOVL3TN6PLUDTC4PIXJ6",
+     "length": "13157",
+     "filename": "crawl-data/CC-MAIN-2026-30/segments/1783664245975.98/warc/CC-MAIN-20260722035438-20260722065438-00215.warc.gz",
+     "offset": "302510864"
+    }
+   },
+   "CC-MAIN-2026-25": {
+    "n": 3,
+    "statuses": [
+     "200",
+     "301"
+    ],
+    "latest_200": {
+     "timestamp": "20260617072731",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "N536ILUUPJ5R6E67BO4RSPTZLJDYVZR7",
+     "length": "2403",
+     "filename": "crawl-data/CC-MAIN-2026-25/segments/1780687862097.79/warc/CC-MAIN-20260617060931-20260617090931-00215.warc.gz",
+     "offset": "276348753"
+    }
+   },
+   "CC-MAIN-2026-21": {
+    "n": 3,
+    "statuses": [
+     "200",
+     "301"
+    ],
+    "latest_200": {
+     "timestamp": "20260512213438",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "WRCDV26QH6EORJA5PRTH7O2ET7U3VAR4",
+     "length": "2182",
+     "filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377534.41/warc/CC-MAIN-20260512205040-20260512235040-00215.warc.gz",
+     "offset": "265482322"
+    }
+   },
+   "CC-MAIN-2026-17": {
+    "n": 4,
+    "statuses": [
+     "200",
+     "301",
+     "302"
+    ],
+    "latest_200": {
+     "timestamp": "20260419121048",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "MJU54OZOI6TFCRTAVPV7Q7JKBXOGBPFU",
+     "length": "13034",
+     "filename": "crawl-data/CC-MAIN-2026-17/segments/1775805909379.49/warc/CC-MAIN-20260419103210-20260419133210-00215.warc.gz",
+     "offset": "264499705"
+    }
+   },
+   "CC-MAIN-2024-51": {
+    "n": 4,
+    "statuses": [
+     "200",
+     "302"
+    ],
+    "latest_200": {
+     "timestamp": "20241204015156",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "ABTGCYC77AFIPGSSWQDQOO3JMKMWDO6T",
+     "length": "27143",
+     "filename": "crawl-data/CC-MAIN-2024-51/segments/1733066142519.55/warc/CC-MAIN-20241204014854-20241204044854-00064.warc.gz",
+     "offset": "320255150"
+    }
+   },
+   "CC-MAIN-2023-50": {
+    "n": 3,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20231209121129",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "FDUJ2MP25OY33E5F5L2LE7LALDSSEQJ5",
+     "length": "26979",
+     "filename": "crawl-data/CC-MAIN-2023-50/segments/1700679100909.82/warc/CC-MAIN-20231209103523-20231209133523-00064.warc.gz",
+     "offset": "392130261"
+    }
+   }
+  },
+  "https://languageconservancy.org/learning-resources/": {
+   "CC-MAIN-2026-30": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260715230658",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "JFJR72H77GMVIZYJ5V2DZVCACJWVOEEU",
+     "length": "25605",
+     "filename": "crawl-data/CC-MAIN-2026-30/segments/1783663951757.6/warc/CC-MAIN-20260715214819-20260716004819-00971.warc.gz",
+     "offset": "270969745"
+    }
+   },
+   "CC-MAIN-2026-25": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260611135416",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "INHN2CTAOGIVTRZ7BPVPEBCTBTDJID7V",
+     "length": "25616",
+     "filename": "crawl-data/CC-MAIN-2026-25/segments/1780687572635.41/warc/CC-MAIN-20260611123040-20260611153040-00971.warc.gz",
+     "offset": "294644818"
+    }
+   },
+   "CC-MAIN-2026-21": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260509172618",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "7NHESLEUL75SXRH4H5JUOA73J5AAKV27",
+     "length": "25612",
+     "filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00971.warc.gz",
+     "offset": "309370503"
+    }
+   },
+   "CC-MAIN-2026-17": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260420065334",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "3CJYPYFAYUZGVK4QYIDM5NJ6IF4FO7KV",
+     "length": "25616",
+     "filename": "crawl-data/CC-MAIN-2026-17/segments/1775805909603.95/warc/CC-MAIN-20260420052925-20260420082925-00971.warc.gz",
+     "offset": "279070844"
+    }
+   },
+   "CC-MAIN-2024-51": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20241207055925",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "BWKAJJM6WA4HKIXF7NGS7HPHVBYNZSJH",
+     "length": "24541",
+     "filename": "crawl-data/CC-MAIN-2024-51/segments/1733066423685.72/warc/CC-MAIN-20241207041404-20241207071404-00671.warc.gz",
+     "offset": "318168683"
+    }
+   },
+   "CC-MAIN-2023-50": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20231211032859",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "UITSQQ4KDXAWACVHG675KJL3WRIHN2QZ",
+     "length": "25587",
+     "filename": "crawl-data/CC-MAIN-2023-50/segments/1700679103464.86/warc/CC-MAIN-20231211013452-20231211043452-00671.warc.gz",
+     "offset": "385320712"
+    }
+   }
+  },
+  "https://kanienkeha.net/page/42/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-40": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-23": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-14": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-06": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2022-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2021-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2020-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2015-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2014-52": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2013-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://www.firstvoices.com/kanienkeha-mohawk-en/words": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-40": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-23": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-14": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-06": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2022-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2021-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2020-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2015-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2014-52": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2013-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://www.native-languages.org/mohawk_words.htm": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 1,
+    "statuses": [
+     "304"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20250616190335",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "2EXI5FQ4AE25V7BT6ETMP5PSZKJFAZ64",
+     "length": "5593",
+     "filename": "crawl-data/CC-MAIN-2025-26/segments/1749709481424.74/warc/CC-MAIN-20250616175757-20250616205757-00880.warc.gz",
+     "offset": "45867912"
+    }
+   },
+   "CC-MAIN-2025-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20250213062618",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "C3ZH3EIWM4HS25DWRNH5R5BVDSLGBUPH",
+     "length": "3097",
+     "filename": "crawl-data/CC-MAIN-2025-08/segments/1738831951775.34/warc/CC-MAIN-20250213045825-20250213075825-00480.warc.gz",
+     "offset": "47236533"
+    }
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-40": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-23": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20230610005428",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "JGKVZEKGEWTCRSISEWLDR75UJSDGUWUC",
+     "length": "1230",
+     "filename": "crawl-data/CC-MAIN-2023-23/segments/1685224656869.87/warc/CC-MAIN-20230609233952-20230610023952-00280.warc.gz",
+     "offset": "72221925"
+    }
+   },
+   "CC-MAIN-2023-14": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-06": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2022-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2021-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2020-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20161209093508",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "C4FXN5IZCZN4UJ27LB3H7IDLPDTPYYAF",
+     "length": "3734",
+     "filename": "crawl-data/CC-MAIN-2016-50/segments/1480698542693.41/warc/CC-MAIN-20161202170902-00344-ip-10-31-129-80.ec2.internal.warc.gz",
+     "offset": "611309286"
+    }
+   },
+   "CC-MAIN-2015-48": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20151130113435",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "KYJ6W2GIAA3L6XJXDIQ2TP6WR3OAPKNC",
+     "length": "3733",
+     "filename": "crawl-data/CC-MAIN-2015-48/segments/1448398461529.84/warc/CC-MAIN-20151124205421-00201-ip-10-71-132-137.ec2.internal.warc.gz",
+     "offset": "578950863"
+    }
+   },
+   "CC-MAIN-2014-52": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20141220183617",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "SJHDDAFK4QM5MTJG2TCHEXSPBXYBY5AL",
+     "length": "3956",
+     "filename": "crawl-data/CC-MAIN-2014-52/segments/1418802770130.120/warc/CC-MAIN-20141217075250-00056-ip-10-231-17-201.ec2.internal.warc.gz",
+     "offset": "685736642"
+    }
+   },
+   "CC-MAIN-2013-48": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20131211134609",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "AEZWMIZ7KYTKKZ2IZWV4QOKQ6BTL2Q3S",
+     "length": "3789",
+     "filename": "crawl-data/CC-MAIN-2013-48/segments/1386164036943/warc/CC-MAIN-20131204133356-00080-ip-10-33-133-15.ec2.internal.warc.gz",
+     "offset": "466567538"
+    }
+   }
+  },
+  "http://mohawk.kanienkeha.free.fr/index_uk.htm": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-40": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-23": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-14": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-06": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2022-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2021-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2020-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2015-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2014-52": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2013-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://www.choctawschool.com/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 1,
+    "statuses": [
+     "301"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 2,
+    "statuses": [
+     "301"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 1,
+    "statuses": [
+     "301"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-40": {
+    "n": 1,
+    "statuses": [
+     "301"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-23": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20230529054203",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "3MZ6ZCQ3QTA4VNKFF2K5MZVL5HZ5WGI6",
+     "length": "10511",
+     "filename": "crawl-data/CC-MAIN-2023-23/segments/1685224644683.18/warc/CC-MAIN-20230529042138-20230529072138-00167.warc.gz",
+     "offset": "202153554"
+    }
+   },
+   "CC-MAIN-2023-14": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20230331160226",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "5JP2QJUEMRA2MB64YADTWNJVJJ4SHZYH",
+     "length": "10156",
+     "filename": "crawl-data/CC-MAIN-2023-14/segments/1679296949644.27/warc/CC-MAIN-20230331144941-20230331174941-00167.warc.gz",
+     "offset": "212020415"
+    }
+   },
+   "CC-MAIN-2023-06": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20230201191538",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "QK22YMZZHN35SC72I44M4B2X2VNNWGSM",
+     "length": "10046",
+     "filename": "crawl-data/CC-MAIN-2023-06/segments/1674764499949.24/warc/CC-MAIN-20230201180036-20230201210036-00247.warc.gz",
+     "offset": "199982760"
+    }
+   },
+   "CC-MAIN-2022-49": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20221201101731",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "TSGTOIPPVLE3AXLKT5364XCFKJOVFBBP",
+     "length": "10062",
+     "filename": "crawl-data/CC-MAIN-2022-49/segments/1669446710808.72/warc/CC-MAIN-20221201085558-20221201115558-00247.warc.gz",
+     "offset": "210138892"
+    }
+   },
+   "CC-MAIN-2021-49": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20211203071129",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "NSFT4UQR7IOZ2AX5C33IGBJ6JYJYQKTS",
+     "length": "10147",
+     "filename": "crawl-data/CC-MAIN-2021-49/segments/1637964362605.52/warc/CC-MAIN-20211203060849-20211203090849-00167.warc.gz",
+     "offset": "236570652"
+    }
+   },
+   "CC-MAIN-2020-50": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20201126011331",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "TKMJDA65HG4GKUUD2ZE77ECD7LUTBUAA",
+     "length": "9535",
+     "filename": "crawl-data/CC-MAIN-2020-50/segments/1606141185851.16/warc/CC-MAIN-20201126001926-20201126031926-00567.warc.gz",
+     "offset": "240437496"
+    }
+   },
+   "CC-MAIN-2019-51": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20191212202627",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "H5JE6QZI2JSCBJBKFIE3PX4F5ONZOEAR",
+     "length": "9323",
+     "filename": "crawl-data/CC-MAIN-2019-51/segments/1575540545146.75/warc/CC-MAIN-20191212181310-20191212205310-00264.warc.gz",
+     "offset": "31845407"
+    }
+   },
+   "CC-MAIN-2018-51": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20181215191424",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "SUN2OKZQEZKASWENEDSOKIJWSKNWFKVV",
+     "length": "8937",
+     "filename": "crawl-data/CC-MAIN-2018-51/segments/1544376826968.71/warc/CC-MAIN-20181215174802-20181215200802-00264.warc.gz",
+     "offset": "54419595"
+    }
+   },
+   "CC-MAIN-2017-51": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20171214074721",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "VFUWQFCRSNEN5E5TGWIUH5ZN3KER4REF",
+     "length": "8353",
+     "filename": "crawl-data/CC-MAIN-2017-51/segments/1512948542031.37/warc/CC-MAIN-20171214074533-20171214094533-00127.warc.gz",
+     "offset": "344883558"
+    }
+   },
+   "CC-MAIN-2016-50": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20161210065257",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "4Z7TPO3CRETFZQTPGKVKOZQTTMISOYCA",
+     "length": "5191",
+     "filename": "crawl-data/CC-MAIN-2016-50/segments/1480698542972.9/warc/CC-MAIN-20161202170902-00264-ip-10-31-129-80.ec2.internal.warc.gz",
+     "offset": "50213988"
+    }
+   },
+   "CC-MAIN-2015-48": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20151130023340",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "WLUMBW5RH6KWVY2RCBVZOZNHX2OIE7DC",
+     "length": "8250",
+     "filename": "crawl-data/CC-MAIN-2015-48/segments/1448398460942.79/warc/CC-MAIN-20151124205420-00180-ip-10-71-132-137.ec2.internal.warc.gz",
+     "offset": "43499633"
+    }
+   },
+   "CC-MAIN-2014-52": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20141222083051",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "OVYJUZS2W6HXHEVFKP477G7X5RZHQX43",
+     "length": "8269",
+     "filename": "crawl-data/CC-MAIN-2014-52/segments/1418802774986.137/warc/CC-MAIN-20141217075254-00152-ip-10-231-17-201.ec2.internal.warc.gz",
+     "offset": "51097622"
+    }
+   },
+   "CC-MAIN-2013-48": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20131213042821",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "IADV7HPYCSHYV2XHENV4XPYRHC2FJCQR",
+     "length": "7139",
+     "filename": "crawl-data/CC-MAIN-2013-48/segments/1386164858282/warc/CC-MAIN-20131204134738-00027-ip-10-33-133-15.ec2.internal.warc.gz",
+     "offset": "273854331"
+    }
+   }
+  },
+  "https://www.choctawnation.com/about/language/": {
+   "CC-MAIN-2026-30": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260718025250",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "JAGBRYERXWAJL7KDSLDOQJDSJV6EWBBC",
+     "length": "15593",
+     "filename": "crawl-data/CC-MAIN-2026-30/segments/1783663951967.29/warc/CC-MAIN-20260718015618-20260718045618-00698.warc.gz",
+     "offset": "585690095"
+    }
+   },
+   "CC-MAIN-2026-25": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260617065745",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "GNMBACHOVQBLBQR5CWLX56OZKFN4MVUJ",
+     "length": "14673",
+     "filename": "crawl-data/CC-MAIN-2026-25/segments/1780687862097.79/warc/CC-MAIN-20260617060931-20260617090931-00698.warc.gz",
+     "offset": "578281358"
+    }
+   },
+   "CC-MAIN-2026-21": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260515195536",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "RMPRYQ7FFMAXIZCWUN3EZKYBS5VA57DE",
+     "length": "14485",
+     "filename": "crawl-data/CC-MAIN-2026-21/segments/1778213378177.22/warc/CC-MAIN-20260515190610-20260515220610-00698.warc.gz",
+     "offset": "566131120"
+    }
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20241209193715",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "6LWOQ75O7GXEG2MBAQFXYDEMAOBNNTPO",
+     "length": "11128",
+     "filename": "crawl-data/CC-MAIN-2024-51/segments/1733066047540.11/warc/CC-MAIN-20241209183414-20241209213414-00498.warc.gz",
+     "offset": "631373063"
+    }
+   },
+   "CC-MAIN-2023-50": {
+    "n": 3,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20231209135937",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "7NZVYC47UWRA26TN6ZEL7K6TSVOXBXGA",
+     "length": "12239",
+     "filename": "crawl-data/CC-MAIN-2023-50/segments/1700679100912.91/warc/CC-MAIN-20231209134916-20231209164916-00498.warc.gz",
+     "offset": "753687230"
+    }
+   }
+  },
+  "https://anompa.chickasaw.net/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 1,
+    "statuses": [
+     "301"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-40": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-23": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-14": {
+    "n": 1,
+    "statuses": [
+     "301"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-06": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2022-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2021-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2020-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2015-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2014-52": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2013-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://www.chickasaw.net/our-nation/culture/language.aspx": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260616024738",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "5GAVOFOVTHV6B44JEMBHKJHWIXFCHLEB",
+     "length": "14865",
+     "filename": "crawl-data/CC-MAIN-2026-25/segments/1780687574777.24/warc/CC-MAIN-20260616015835-20260616045835-00284.warc.gz",
+     "offset": "20493708"
+    }
+   },
+   "CC-MAIN-2026-21": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260518183041",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "IFCM7VBPYYY5AEWZA4UZE5VWEJHC7U4Y",
+     "length": "15020",
+     "filename": "crawl-data/CC-MAIN-2026-21/segments/1778213680315.97/warc/CC-MAIN-20260518174101-20260518204101-00812.warc.gz",
+     "offset": "107767588"
+    }
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20231201104623",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "JEG33KEOURSETITEPGSWALSXOC4LY2J5",
+     "length": "14284",
+     "filename": "crawl-data/CC-MAIN-2023-50/segments/1700679100286.10/warc/CC-MAIN-20231201084429-20231201114429-00887.warc.gz",
+     "offset": "796047918"
+    }
+   }
+  },
+  "https://www.muscogeenation.com/det/mlp/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-40": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-23": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-14": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-06": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2022-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2021-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2020-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2015-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2014-52": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2013-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://muskogee.pages.wm.edu/learning/": {
+   "CC-MAIN-2026-30": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260718144226",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "5QGGBJQ6CQ3SOGQLD3G5YNGJOMD25BWJ",
+     "length": "10484",
+     "filename": "crawl-data/CC-MAIN-2026-30/segments/1783663952020.55/warc/CC-MAIN-20260718141315-20260718171315-00944.warc.gz",
+     "offset": "342146764"
+    }
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260415222000",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "ENZYKFECIEDKI74ZGSLJUYCYGBVZDRY2",
+     "length": "10814",
+     "filename": "crawl-data/CC-MAIN-2026-17/segments/1775805908932.43/warc/CC-MAIN-20260415213810-20260416003810-00944.warc.gz",
+     "offset": "335694962"
+    }
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://navajo-dictionary.com/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-40": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-23": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-14": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-06": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2022-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2021-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2020-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2015-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2014-52": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2013-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://opvp.navajo-nsn.gov/dine-bizaad/vocabulary/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-40": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-23": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-14": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-06": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2022-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2021-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2020-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2015-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2014-52": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2013-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://verbs.colorado.edu/ArapahoLanguageProject/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260608235308",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "5WJTAGDH4Q6AJYNSWM226DP63SYYUEC6",
+     "length": "4665",
+     "filename": "crawl-data/CC-MAIN-2026-25/segments/1780687572428.74/warc/CC-MAIN-20260608224308-20260609014308-00994.warc.gz",
+     "offset": "530378391"
+    }
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://www.colorado.edu/project/arapaho/language/common-arapaho-words": {
+   "CC-MAIN-2026-30": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260722201849",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "HPNKVKJJDHJSKJCBATB2VW5TXDSIV2FM",
+     "length": "7569",
+     "filename": "crawl-data/CC-MAIN-2026-30/segments/1783664247437.78/warc/CC-MAIN-20260722191031-20260722221031-00165.warc.gz",
+     "offset": "579980640"
+    }
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://www.colorado.edu/project/arapaho/language/dictionary": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260413145315",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "BUZ4WQV7N3SGHSDQZSQLC36QKNFUQJGC",
+     "length": "128024",
+     "filename": "crawl-data/CC-MAIN-2026-17/segments/1775805908774.13/warc/CC-MAIN-20260413132510-20260413162510-00241.warc.gz",
+     "offset": "591843567"
+    }
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://www.osageculture.com/language": {
+   "CC-MAIN-2026-30": {
+    "n": 3,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260722051054",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "G5LAHWARCZMWQ52SIJVHMJ7IAQXEOXJG",
+     "length": "39391",
+     "filename": "crawl-data/CC-MAIN-2026-30/segments/1783664245975.98/warc/CC-MAIN-20260722035438-20260722065438-00545.warc.gz",
+     "offset": "358425569"
+    }
+   },
+   "CC-MAIN-2026-25": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260614135948",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "WOTJ7CAR3LXRC3ONS5RICGMXKHPBRYUD",
+     "length": "38019",
+     "filename": "crawl-data/CC-MAIN-2026-25/segments/1780687573103.20/warc/CC-MAIN-20260614123051-20260614153051-00545.warc.gz",
+     "offset": "355502685"
+    }
+   },
+   "CC-MAIN-2026-21": {
+    "n": 3,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260518130052",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "SDB5JSFYKGYBD3COSTFKOAERFJQUGTDW",
+     "length": "14088",
+     "filename": "crawl-data/CC-MAIN-2026-21/segments/1778213680199.98/warc/CC-MAIN-20260518113500-20260518143500-00594.warc.gz",
+     "offset": "730964630"
+    }
+   },
+   "CC-MAIN-2026-17": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260422024207",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "SW22XGNBW52I24BZWQULKINXPIK5D2BR",
+     "length": "37831",
+     "filename": "crawl-data/CC-MAIN-2026-17/segments/1775806209748.93/warc/CC-MAIN-20260422010744-20260422040744-00594.warc.gz",
+     "offset": "794645093"
+    }
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://www.osagenation-nsn.gov/who-we-are/language-department": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 2,
+    "statuses": [
+     "403"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 1,
+    "statuses": [
+     "403"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 1,
+    "statuses": [
+     "403"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 2,
+    "statuses": [
+     "301",
+     "403"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 1,
+    "statuses": [
+     "403"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-38": {
+    "n": 1,
+    "statuses": [
+     "403"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 1,
+    "statuses": [
+     "403"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 2,
+    "statuses": [
+     "403"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-40": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-23": {
+    "n": 1,
+    "statuses": [
+     "403"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-14": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-06": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20230204023920",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "FRR4VN3SZO35QVFNHATKXBVVSJ6WVXPV",
+     "length": "66177",
+     "filename": "crawl-data/CC-MAIN-2023-06/segments/1674764500080.82/warc/CC-MAIN-20230204012622-20230204042622-00772.warc.gz",
+     "offset": "940453403"
+    }
+   },
+   "CC-MAIN-2022-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2021-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2020-50": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20201204194510",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "EBYKQGLXHEO35K2ES5TVRKDU4Z4FY7YJ",
+     "length": "20913",
+     "filename": "crawl-data/CC-MAIN-2020-50/segments/1606141743438.76/warc/CC-MAIN-20201204193220-20201204223220-00421.warc.gz",
+     "offset": "147854152"
+    }
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20171214185816",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "AC6OKB72AZFGWU3HW446TSXUDC7IK5YW",
+     "length": "15100",
+     "filename": "crawl-data/CC-MAIN-2017-51/segments/1512948550199.46/warc/CC-MAIN-20171214183234-20171214203234-00052.warc.gz",
+     "offset": "794052081"
+    }
+   },
+   "CC-MAIN-2016-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2015-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2014-52": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2013-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://www.osageculture.com/node/72": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-40": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-23": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-14": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-06": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2022-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2021-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2020-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2015-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2014-52": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2013-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://dictionary.blackfoot.atlas-ling.ca/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 2,
+    "statuses": [
+     "200",
+     "301"
+    ],
+    "latest_200": {
+     "timestamp": "20260411110351",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "QE3NROHOWREZOWCEWOBWSZJW6U7XNN6Y",
+     "length": "6125",
+     "filename": "crawl-data/CC-MAIN-2026-17/segments/1775805908633.72/warc/CC-MAIN-20260411103300-20260411133300-00820.warc.gz",
+     "offset": "158773254"
+    }
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20231128091745",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "4O5O54I3D7E3ASQI2MSB7L7RBBJV4VHB",
+     "length": "5925",
+     "filename": "crawl-data/CC-MAIN-2023-50/segments/1700679099281.67/warc/CC-MAIN-20231128083443-20231128113443-00120.warc.gz",
+     "offset": "236427540"
+    }
+   }
+  },
+  "https://blackfoot.algonquianlanguages.ca/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260417175205",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "E2WFJSNPNBTUKEBIWUIIRUG6TLIUAQCJ",
+     "length": "12274",
+     "filename": "crawl-data/CC-MAIN-2026-17/segments/1775805909160.40/warc/CC-MAIN-20260417173955-20260417203955-00822.warc.gz",
+     "offset": "97196525"
+    }
+   },
+   "CC-MAIN-2024-51": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20241211083348",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "POX63RQP6HF6UQQISBOF4CUJHOCOKFCF",
+     "length": "11009",
+     "filename": "crawl-data/CC-MAIN-2024-51/segments/1733066078432.16/warc/CC-MAIN-20241211082128-20241211112128-00422.warc.gz",
+     "offset": "110634989"
+    }
+   },
+   "CC-MAIN-2023-50": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20231209004925",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "CMD733I4MP2YYTA7EFVC2LRWWMEPLGNI",
+     "length": "10842",
+     "filename": "crawl-data/CC-MAIN-2023-50/segments/1700679100781.60/warc/CC-MAIN-20231209004202-20231209034202-00422.warc.gz",
+     "offset": "153958636"
+    }
+   }
+  },
+  "https://itwewina.altlab.app/": {
+   "CC-MAIN-2026-30": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260712021120",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "ZLQQMT7XLY4G3ONIBUWFYCUWMV5AAE2B",
+     "length": "5280",
+     "filename": "crawl-data/CC-MAIN-2026-30/segments/1783663951536.14/warc/CC-MAIN-20260712015859-20260712045859-00760.warc.gz",
+     "offset": "278904361"
+    }
+   },
+   "CC-MAIN-2026-25": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260615011809",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "76ELPPLDXCZKRWTJ6V2OQHCJKXNLYHFT",
+     "length": "5287",
+     "filename": "crawl-data/CC-MAIN-2026-25/segments/1780687573281.47/warc/CC-MAIN-20260615005945-20260615035945-00760.warc.gz",
+     "offset": "256782704"
+    }
+   },
+   "CC-MAIN-2026-21": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260519181455",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "HT57RSQIJQ6GOF3IDMQTFAJYFGBOOXCV",
+     "length": "5281",
+     "filename": "crawl-data/CC-MAIN-2026-21/segments/1778213376959.33/warc/CC-MAIN-20260519180627-20260519210627-00760.warc.gz",
+     "offset": "290993251"
+    }
+   },
+   "CC-MAIN-2026-17": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260413194859",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "RVDCGIUOJAWJY5MTJIZR3M36M54O6PZT",
+     "length": "5285",
+     "filename": "crawl-data/CC-MAIN-2026-17/segments/1775805908781.55/warc/CC-MAIN-20260413193854-20260413223854-00760.warc.gz",
+     "offset": "253557614"
+    }
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20231208145014",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "3Y6GG4HTB7XWLNFUUCIE22B5P7LOPYCW",
+     "length": "5108",
+     "filename": "crawl-data/CC-MAIN-2023-50/segments/1700679100762.64/warc/CC-MAIN-20231208144732-20231208174732-00060.warc.gz",
+     "offset": "356837400"
+    }
+   }
+  },
+  "https://www.creedictionary.com/about.php": {
+   "CC-MAIN-2026-30": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260722191734",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "SPY73RL754WBCOLMH2G3TKMWTGLT7KTU",
+     "length": "4827",
+     "filename": "crawl-data/CC-MAIN-2026-30/segments/1783664247437.78/warc/CC-MAIN-20260722191031-20260722221031-00904.warc.gz",
+     "offset": "143542935"
+    }
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 3,
+    "statuses": [
+     "200",
+     "301"
+    ],
+    "latest_200": {
+     "timestamp": "20241213014123",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "SPY73RL754WBCOLMH2G3TKMWTGLT7KTU",
+     "length": "4841",
+     "filename": "crawl-data/CC-MAIN-2024-51/segments/1733066115574.46/warc/CC-MAIN-20241213012212-20241213042212-00504.warc.gz",
+     "offset": "169315662"
+    }
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://plainscree.algonquianlanguages.ca/resources/dictionaries-and-grammars/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260414153242",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "GTOWSTNJMLQWUCY5X2D6UNXYWB5SHJ5H",
+     "length": "11875",
+     "filename": "crawl-data/CC-MAIN-2026-17/segments/1775805908790.92/warc/CC-MAIN-20260414142456-20260414172456-00607.warc.gz",
+     "offset": "351993435"
+    }
+   },
+   "CC-MAIN-2024-51": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20241213090424",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "2CU5UDRGXFF5QFJIMAGYUUQNRIUVZY43",
+     "length": "10727",
+     "filename": "crawl-data/CC-MAIN-2024-51/segments/1733066116599.47/warc/CC-MAIN-20241213074100-20241213104100-00707.warc.gz",
+     "offset": "419247071"
+    }
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://sealaskaheritage.org/shi-language-department/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20251017144128",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "V5VK36SZGTV7VNGDRPYZHLGEQH4IZAIZ",
+     "length": "59455",
+     "filename": "crawl-data/CC-MAIN-2025-43/segments/1759648665304.94/warc/CC-MAIN-20251017125300-20251017155300-00614.warc.gz",
+     "offset": "457534569"
+    }
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20250811045012",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "UWNZWPXCNT3CWISU7NIMAMN22AQLVP6Q",
+     "length": "59139",
+     "filename": "crawl-data/CC-MAIN-2025-33/segments/1754151280245.49/warc/CC-MAIN-20250811034648-20250811064648-00614.warc.gz",
+     "offset": "451271827"
+    }
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20250524070513",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "FPQB2BV7O5F4RO2A26BYEY77PKMCI4YG",
+     "length": "59195",
+     "filename": "crawl-data/CC-MAIN-2025-21/segments/1746990724118.79/warc/CC-MAIN-20250524052343-20250524082343-00614.warc.gz",
+     "offset": "460310258"
+    }
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20250209014615",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "HASDNJHWFSALQYN3L44OFXQUQS6VVXQK",
+     "length": "59165",
+     "filename": "crawl-data/CC-MAIN-2025-08/segments/1738831951584.32/warc/CC-MAIN-20250209003139-20250209033139-00614.warc.gz",
+     "offset": "490811866"
+    }
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20241012134750",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "LDANIPHZAWKJXP5GXFHKOZDTD46VTOZ2",
+     "length": "59254",
+     "filename": "crawl-data/CC-MAIN-2024-42/segments/1727944253969.67/warc/CC-MAIN-20241012112926-20241012142926-00614.warc.gz",
+     "offset": "429599258"
+    }
+   },
+   "CC-MAIN-2024-38": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20240911185022",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "HMNY5GAPQDH3RAI5NYS6RYRHBSAWFKNU",
+     "length": "58945",
+     "filename": "crawl-data/CC-MAIN-2024-38/segments/1725700651400.96/warc/CC-MAIN-20240911183926-20240911213926-00614.warc.gz",
+     "offset": "466977912"
+    }
+   },
+   "CC-MAIN-2024-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-40": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-23": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-14": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-06": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2022-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2021-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2020-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2015-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2014-52": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2013-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://www.sealaska.com/language/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260418043040",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "EYXHXVCISYWRCXCWP3CLJS6FDYVMZRXP",
+     "length": "9790",
+     "filename": "crawl-data/CC-MAIN-2026-17/segments/1775805909224.47/warc/CC-MAIN-20260418030820-20260418060820-00967.warc.gz",
+     "offset": "892098316"
+    }
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://www.uaf.edu/anla/collections/dictionaries/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20251012115715",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "XNEB76QZHNBB2XJQ4NKB5CCXARX5TLFH",
+     "length": "7914",
+     "filename": "crawl-data/CC-MAIN-2025-43/segments/1759648358757.89/warc/CC-MAIN-20251012100427-20251012130427-00768.warc.gz",
+     "offset": "1030770671"
+    }
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20250513232244",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "X6MYWZW5PJCMCW6SG3RBZ7Q4UW3FOXRL",
+     "length": "7967",
+     "filename": "crawl-data/CC-MAIN-2025-21/segments/1746990412396.35/warc/CC-MAIN-20250513213505-20250514003505-00768.warc.gz",
+     "offset": "948717278"
+    }
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20250207090725",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "J5UFKYRQ6XOFPA4QDEKMVF3VEW3O2MAT",
+     "length": "7913",
+     "filename": "crawl-data/CC-MAIN-2025-08/segments/1738831951469.57/warc/CC-MAIN-20250207065812-20250207095812-00668.warc.gz",
+     "offset": "987634965"
+    }
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20241008004516",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "776LGLDRJNVN77L2U6SJM2Z3MV4LAE5B",
+     "length": "7903",
+     "filename": "crawl-data/CC-MAIN-2024-42/segments/1727944253505.28/warc/CC-MAIN-20241007223420-20241008013420-00668.warc.gz",
+     "offset": "912991513"
+    }
+   },
+   "CC-MAIN-2024-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20240615180611",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "D2ZTFROQRRNQOUMMJ446CHF6WBB6DWRE",
+     "length": "7838",
+     "filename": "crawl-data/CC-MAIN-2024-26/segments/1718198861605.77/warc/CC-MAIN-20240615155712-20240615185712-00668.warc.gz",
+     "offset": "928359313"
+    }
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20240228071213",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "XYYE2RBWBK7HWPT33QT3TNYT6MCGK32G",
+     "length": "7824",
+     "filename": "crawl-data/CC-MAIN-2024-10/segments/1707947474697.2/warc/CC-MAIN-20240228044414-20240228074414-00668.warc.gz",
+     "offset": "1060154533"
+    }
+   },
+   "CC-MAIN-2023-40": {
+    "n": 2,
+    "statuses": [
+     "200",
+     "301"
+    ],
+    "latest_200": {
+     "timestamp": "20231001145111",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "7CXE62DEZ5PIPH5SLC7TUHGXDJD55KKV",
+     "length": "7788",
+     "filename": "crawl-data/CC-MAIN-2023-40/segments/1695233510903.85/warc/CC-MAIN-20231001141548-20231001171548-00668.warc.gz",
+     "offset": "1144595799"
+    }
+   },
+   "CC-MAIN-2023-23": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-14": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20230401100122",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "BPHBMTTBO6CO27NA7QXB7O47DQIH2QH4",
+     "length": "7724",
+     "filename": "crawl-data/CC-MAIN-2023-14/segments/1679296949958.54/warc/CC-MAIN-20230401094611-20230401124611-00401.warc.gz",
+     "offset": "671170996"
+    }
+   },
+   "CC-MAIN-2023-06": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2022-49": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20221203182137",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "C6MJLHIMBEV42NTDXJ4PCTJ4FW6NQ4UD",
+     "length": "7768",
+     "filename": "crawl-data/CC-MAIN-2022-49/segments/1669446710936.10/warc/CC-MAIN-20221203175958-20221203205958-00001.warc.gz",
+     "offset": "622826839"
+    }
+   },
+   "CC-MAIN-2021-49": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20211201084541",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "IDJC3RZFAF2P77LVJBQBXLJH3KYZLLW5",
+     "length": "7657",
+     "filename": "crawl-data/CC-MAIN-2021-49/segments/1637964359976.94/warc/CC-MAIN-20211201083001-20211201113001-00241.warc.gz",
+     "offset": "619435487"
+    }
+   },
+   "CC-MAIN-2020-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20161208000255",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "PKYC5HU4PRDOHN4AEOSOLLIFWW7EVZYU",
+     "length": "6296",
+     "filename": "crawl-data/CC-MAIN-2016-50/segments/1480698542288.7/warc/CC-MAIN-20161202170902-00265-ip-10-31-129-80.ec2.internal.warc.gz",
+     "offset": "759548680"
+    }
+   },
+   "CC-MAIN-2015-48": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20151127224423",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "7MPCHPQUXNPLHB6O5BV3KZMXWOSGRZKY",
+     "length": "6160",
+     "filename": "crawl-data/CC-MAIN-2015-48/segments/1448398450659.10/warc/CC-MAIN-20151124205410-00193-ip-10-71-132-137.ec2.internal.warc.gz",
+     "offset": "769769219"
+    }
+   },
+   "CC-MAIN-2014-52": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20141223030733",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "CGMV7NQN7ULQWH7T3723XIHIIPLSWSRE",
+     "length": "5932",
+     "filename": "crawl-data/CC-MAIN-2014-52/segments/1418802778013.38/warc/CC-MAIN-20141217075258-00073-ip-10-231-17-201.ec2.internal.warc.gz",
+     "offset": "869480452"
+    }
+   },
+   "CC-MAIN-2013-48": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20131212103533",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "G4QNMKN2CGS3CNV4R7DQNJUS36N6B6VX",
+     "length": "5747",
+     "filename": "crawl-data/CC-MAIN-2013-48/segments/1386164580231/warc/CC-MAIN-20131204134300-00021-ip-10-33-133-15.ec2.internal.warc.gz",
+     "offset": "590044803"
+    }
+   }
+  },
+  "https://www.potawatomiheritage.com/language/language-dept/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260513073244",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "2ZQKYPUDBM6UECQ3AFX2SZUJC3JVD7P5",
+     "length": "19630",
+     "filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377585.61/warc/CC-MAIN-20260513060103-20260513090103-00811.warc.gz",
+     "offset": "801041128"
+    }
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://ojibwe.net/t/bodewadmimwen/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 1,
+    "statuses": [
+     "307"
+    ],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20251114143728",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "WDGO24Z6QPJ33VBLLCDNATAEW2HXKROL",
+     "length": "15629",
+     "filename": "crawl-data/CC-MAIN-2025-47/segments/1762439343936.83/warc/CC-MAIN-20251114134336-20251114164336-00061.warc.gz",
+     "offset": "329689020"
+    }
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20250811170438",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "HOY2QU4XNNCMFFXFRYQYWPWEDECP6XHN",
+     "length": "20137",
+     "filename": "crawl-data/CC-MAIN-2025-33/segments/1754151280504.46/warc/CC-MAIN-20250811162052-20250811192052-00061.warc.gz",
+     "offset": "363918209"
+    }
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20250319091551",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "UGZTOXH7RYVVMRESM75HC2NFJKUUALI6",
+     "length": "19820",
+     "filename": "crawl-data/CC-MAIN-2025-13/segments/1742004433093.21/warc/CC-MAIN-20250319080618-20250319110618-00061.warc.gz",
+     "offset": "384173874"
+    }
+   },
+   "CC-MAIN-2025-08": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20241106043745",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "OPJKFNNY4JPJCHTCZTJTCCMEDPYSSKGH",
+     "length": "19869",
+     "filename": "crawl-data/CC-MAIN-2024-46/segments/1730477027909.44/warc/CC-MAIN-20241106034659-20241106064659-00461.warc.gz",
+     "offset": "400418862"
+    }
+   },
+   "CC-MAIN-2024-42": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20240807213719",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "KPXGACKSDX56RXAVHRGFGYKFTEO2B32K",
+     "length": "19784",
+     "filename": "crawl-data/CC-MAIN-2024-33/segments/1722640713269.38/warc/CC-MAIN-20240807205613-20240807235613-00461.warc.gz",
+     "offset": "344099926"
+    }
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20240419053559",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "ZRYNOPBA2J2DDCMAWUKVYKXCCHQQH4KZ",
+     "length": "16350",
+     "filename": "crawl-data/CC-MAIN-2024-18/segments/1712296817289.27/warc/CC-MAIN-20240419043820-20240419073820-00461.warc.gz",
+     "offset": "402628463"
+    }
+   },
+   "CC-MAIN-2024-10": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-40": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20230924200929",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "UQCUJNJXJPLFJE7QTPKXOYV7FSSQCZKP",
+     "length": "15492",
+     "filename": "crawl-data/CC-MAIN-2023-40/segments/1695233506669.30/warc/CC-MAIN-20230924191454-20230924221454-00461.warc.gz",
+     "offset": "473605901"
+    }
+   },
+   "CC-MAIN-2023-23": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-14": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20230327101307",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "NLLD2UCT6ZTJXLHROOILLO65JM73ON7K",
+     "length": "15075",
+     "filename": "crawl-data/CC-MAIN-2023-14/segments/1679296948620.60/warc/CC-MAIN-20230327092225-20230327122225-00061.warc.gz",
+     "offset": "502818610"
+    }
+   },
+   "CC-MAIN-2023-06": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2022-49": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20221202160212",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "MNFMQ5XIZM57DTU7IDNZRVNWMSX7FPA2",
+     "length": "16544",
+     "filename": "crawl-data/CC-MAIN-2022-49/segments/1669446710909.66/warc/CC-MAIN-20221202150823-20221202180823-00381.warc.gz",
+     "offset": "472552051"
+    }
+   },
+   "CC-MAIN-2021-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2020-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2015-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2014-52": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2013-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://www.potawatomi.org/blog/2020/11/13/potawatomi-language-learning-tips/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-05": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20250121110855",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "43FA3ISB7KJ3JTGZIOE5OKZCJR6INXEM",
+     "length": "13438",
+     "filename": "crawl-data/CC-MAIN-2025-05/segments/1736703363115.16/warc/CC-MAIN-20250121102517-20250121132517-00025.warc.gz",
+     "offset": "46084077"
+    }
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20241012032903",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "SIMEWBUN5EJYTQWBPVT4J5RMWFCZ7ZPI",
+     "length": "13391",
+     "filename": "crawl-data/CC-MAIN-2024-42/segments/1727944253858.44/warc/CC-MAIN-20241012020910-20241012050910-00378.warc.gz",
+     "offset": "826544415"
+    }
+   },
+   "CC-MAIN-2024-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20240613203048",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "IYQNBJXBFC4N2IO5OINC2CAFR5ONUJOP",
+     "length": "12939",
+     "filename": "crawl-data/CC-MAIN-2024-26/segments/1718198861488.82/warc/CC-MAIN-20240613190234-20240613220234-00378.warc.gz",
+     "offset": "851476295"
+    }
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20240303091842",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "LDYQCNH5N7AKV3N4RNNEWYLCIMQ6TXAY",
+     "length": "13107",
+     "filename": "crawl-data/CC-MAIN-2024-10/segments/1707947476211.69/warc/CC-MAIN-20240303075134-20240303105134-00378.warc.gz",
+     "offset": "921190666"
+    }
+   },
+   "CC-MAIN-2023-40": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20230925232346",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "YGGXKKZWUG7LLFAYHX75G2GTTBOMVOI4",
+     "length": "14372",
+     "filename": "crawl-data/CC-MAIN-2023-40/segments/1695233510100.47/warc/CC-MAIN-20230925215547-20230926005547-00378.warc.gz",
+     "offset": "1040985206"
+    }
+   },
+   "CC-MAIN-2023-23": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-14": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20230325140950",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "D7NJ6VH3WA7INH7QBVWZFLQUM6R7MFJ7",
+     "length": "14385",
+     "filename": "crawl-data/CC-MAIN-2023-14/segments/1679296945333.53/warc/CC-MAIN-20230325130029-20230325160029-00678.warc.gz",
+     "offset": "1053264924"
+    }
+   },
+   "CC-MAIN-2023-06": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2022-49": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20221206073327",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "VCAMWKPB5AKUAAZUYXCG2KOOON3C57LL",
+     "length": "15866",
+     "filename": "crawl-data/CC-MAIN-2022-49/segments/1669446711074.68/warc/CC-MAIN-20221206060908-20221206090908-00838.warc.gz",
+     "offset": "978954941"
+    }
+   },
+   "CC-MAIN-2021-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2020-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2015-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2014-52": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2013-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://menomineelanguage.com/": {
+   "CC-MAIN-2026-30": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260714065511",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "B52W63Z5ZAX3XSUVZJGDTWTWFK7BN2SU",
+     "length": "29412",
+     "filename": "crawl-data/CC-MAIN-2026-30/segments/1783663951692.32/warc/CC-MAIN-20260714060659-20260714090659-00459.warc.gz",
+     "offset": "297221982"
+    }
+   },
+   "CC-MAIN-2026-25": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260617131552",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "56WVC4VHYYBTONZOOCUNMOPJGFOF7VA4",
+     "length": "29130",
+     "filename": "crawl-data/CC-MAIN-2026-25/segments/1780687863316.94/warc/CC-MAIN-20260617122441-20260617152441-00459.warc.gz",
+     "offset": "299696592"
+    }
+   },
+   "CC-MAIN-2026-21": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260513130056",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "XKUO4LAJ5SMZWCKSIBCZHAMHBK3JE4GC",
+     "length": "29083",
+     "filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377596.29/warc/CC-MAIN-20260513120659-20260513150659-00459.warc.gz",
+     "offset": "315478648"
+    }
+   },
+   "CC-MAIN-2026-17": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260415034627",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "VZBB75Y6IBNNT3OB5CPT2RGZ3SZY5S4B",
+     "length": "27181",
+     "filename": "crawl-data/CC-MAIN-2026-17/segments/1775805908881.15/warc/CC-MAIN-20260415025300-20260415055300-00459.warc.gz",
+     "offset": "333839619"
+    }
+   },
+   "CC-MAIN-2024-51": {
+    "n": 2,
+    "statuses": [
+     "200",
+     "308"
+    ],
+    "latest_200": {
+     "timestamp": "20241211062636",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "2JSIHOMKCH7PNDSB6JXHYBAPNFCR3NTX",
+     "length": "26962",
+     "filename": "crawl-data/CC-MAIN-2024-51/segments/1733066074878.7/warc/CC-MAIN-20241211051031-20241211081031-00659.warc.gz",
+     "offset": "365301729"
+    }
+   },
+   "CC-MAIN-2023-50": {
+    "n": 2,
+    "statuses": [
+     "200",
+     "308"
+    ],
+    "latest_200": {
+     "timestamp": "20231204161707",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "7EFBTVONSCUY7OBPKQC2HFYMJBBF6AVM",
+     "length": "25854",
+     "filename": "crawl-data/CC-MAIN-2023-50/segments/1700679100531.77/warc/CC-MAIN-20231204151108-20231204181108-00659.warc.gz",
+     "offset": "450288067"
+    }
+   }
+  },
+  "https://menominee.libguides.com/c.php?g=798447&p=5708632": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-40": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-23": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-14": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-06": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2022-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2021-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2020-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2015-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2014-52": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2013-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://blackfoot.algonquianlanguages.ca/grammar/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260417191834",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "B573UFH5YOERDEWDQNAWMPOURUHADYP5",
+     "length": "11871",
+     "filename": "crawl-data/CC-MAIN-2026-17/segments/1775805909160.40/warc/CC-MAIN-20260417173955-20260417203955-00694.warc.gz",
+     "offset": "120332812"
+    }
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://language.cherokee.org/fonts-and-keyboards/": {
+   "CC-MAIN-2026-30": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260716163637",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "XM6D2GVBI2DPI26XADQWSFQKEKVJTIXE",
+     "length": "7081",
+     "filename": "crawl-data/CC-MAIN-2026-30/segments/1783663951829.94/warc/CC-MAIN-20260716160835-20260716190835-00656.warc.gz",
+     "offset": "14478090"
+    }
+   },
+   "CC-MAIN-2026-25": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260610005106",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "GKQC6ZWQZCVRX3NVEKZIT7UJPMIJXI7H",
+     "length": "7125",
+     "filename": "crawl-data/CC-MAIN-2026-25/segments/1780687572521.56/warc/CC-MAIN-20260609231516-20260610021516-00303.warc.gz",
+     "offset": "270656695"
+    }
+   },
+   "CC-MAIN-2026-21": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20260509163554",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "OHBUVRG6AVAFKWFX5CG5P3A4XEDF3V3W",
+     "length": "7103",
+     "filename": "crawl-data/CC-MAIN-2026-21/segments/1778213377191.12/warc/CC-MAIN-20260509160131-20260509190131-00656.warc.gz",
+     "offset": "6277995"
+    }
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20231210015050",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "UJWT234FZMBAXVCGSRDGBYGJ6HYGV65N",
+     "length": "7115",
+     "filename": "crawl-data/CC-MAIN-2023-50/segments/1700679100989.75/warc/CC-MAIN-20231209233632-20231210023632-00203.warc.gz",
+     "offset": "391812514"
+    }
+   }
+  },
+  "https://www.cherokeedictionary.net/first500": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20251209014315",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "5QYULBVFQRUW7W6PZMEPT463ZNCYFEGY",
+     "length": "26952",
+     "filename": "crawl-data/CC-MAIN-2025-51/segments/1764871307350.17/warc/CC-MAIN-20251209004206-20251209034206-00513.warc.gz",
+     "offset": "139972390"
+    }
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-05": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-38": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20240919041553",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "5QYULBVFQRUW7W6PZMEPT463ZNCYFEGY",
+     "length": "26955",
+     "filename": "crawl-data/CC-MAIN-2024-38/segments/1725700651981.99/warc/CC-MAIN-20240919025412-20240919055412-00313.warc.gz",
+     "offset": "150874536"
+    }
+   },
+   "CC-MAIN-2024-33": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20240805123910",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "5QYULBVFQRUW7W6PZMEPT463ZNCYFEGY",
+     "length": "26957",
+     "filename": "crawl-data/CC-MAIN-2024-33/segments/1722640447331.19/warc/CC-MAIN-20240805114033-20240805144033-00313.warc.gz",
+     "offset": "128680164"
+    }
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-10": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-40": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-23": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20230609011630",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "TPJCNVTQTDNKQLB7AX5ZSZTUY2TRIBCI",
+     "length": "26882",
+     "filename": "crawl-data/CC-MAIN-2023-23/segments/1685224655244.74/warc/CC-MAIN-20230609000217-20230609030217-00113.warc.gz",
+     "offset": "186370027"
+    }
+   },
+   "CC-MAIN-2023-14": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20230401104932",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "TPJCNVTQTDNKQLB7AX5ZSZTUY2TRIBCI",
+     "length": "26885",
+     "filename": "crawl-data/CC-MAIN-2023-14/segments/1679296949958.54/warc/CC-MAIN-20230401094611-20230401124611-00113.warc.gz",
+     "offset": "209024170"
+    }
+   },
+   "CC-MAIN-2023-06": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2022-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2021-49": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2020-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2019-51": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20191211062753",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "VZZRTYHS7PJ26WKPBSBUVBLX7PBMZCRR",
+     "length": "26424",
+     "filename": "crawl-data/CC-MAIN-2019-51/segments/1575540529955.67/warc/CC-MAIN-20191211045724-20191211073724-00336.warc.gz",
+     "offset": "31165009"
+    }
+   },
+   "CC-MAIN-2018-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2015-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2014-52": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2013-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://ojibwe.net/lessons/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-51": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20251208043359",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "TF5KA3XPAA6SEZLMOSYS5NCU2RSHCQP5",
+     "length": "21912",
+     "filename": "crawl-data/CC-MAIN-2025-51/segments/1764871307273.59/warc/CC-MAIN-20251208031112-20251208061112-00010.warc.gz",
+     "offset": "342667128"
+    }
+   },
+   "CC-MAIN-2025-47": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-43": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-33": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-30": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20250714030812",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "32QPQZWOJVSSLVFZYRN3TISLLPRGQPOH",
+     "length": "26586",
+     "filename": "crawl-data/CC-MAIN-2025-30/segments/1751905934015.21/warc/CC-MAIN-20250714014052-20250714044052-00010.warc.gz",
+     "offset": "395630852"
+    }
+   },
+   "CC-MAIN-2025-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-18": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20250423052527",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "XSQOGD4QKG7IE4S7VCAGXELJKY3RQQO4",
+     "length": "26502",
+     "filename": "crawl-data/CC-MAIN-2025-18/segments/1744889135845.35/warc/CC-MAIN-20250423035537-20250423065537-00010.warc.gz",
+     "offset": "423842950"
+    }
+   },
+   "CC-MAIN-2025-13": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-08": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2025-05": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20250119202815",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "XPJQDPB3EZXX6AEC2S3ZZQMXP5XUHHWM",
+     "length": "26322",
+     "filename": "crawl-data/CC-MAIN-2025-05/segments/1736703362530.80/warc/CC-MAIN-20250119182920-20250119212920-00610.warc.gz",
+     "offset": "438351596"
+    }
+   },
+   "CC-MAIN-2024-46": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-42": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20241015162049",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "LQLEFO2WJLTQZ3AK2XBY23OCRKGEZZZG",
+     "length": "26074",
+     "filename": "crawl-data/CC-MAIN-2024-42/segments/1727944255885.83/warc/CC-MAIN-20241015143046-20241015173046-00610.warc.gz",
+     "offset": "368708256"
+    }
+   },
+   "CC-MAIN-2024-38": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-33": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20240807221232",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "4TG2UPNT7ZUFQA3GDSFJOF43MGZJ3M3X",
+     "length": "26052",
+     "filename": "crawl-data/CC-MAIN-2024-33/segments/1722640713269.38/warc/CC-MAIN-20240807205613-20240807235613-00610.warc.gz",
+     "offset": "342567596"
+    }
+   },
+   "CC-MAIN-2024-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-26": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-22": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-18": {
+    "n": 2,
+    "statuses": [
+     "200",
+     "301"
+    ],
+    "latest_200": {
+     "timestamp": "20240419054651",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "2L7IWBVBCDYAT66QZHH5MVACBABVBAFO",
+     "length": "22440",
+     "filename": "crawl-data/CC-MAIN-2024-18/segments/1712296817289.27/warc/CC-MAIN-20240419043820-20240419073820-00610.warc.gz",
+     "offset": "387649681"
+    }
+   },
+   "CC-MAIN-2024-10": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-40": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20231002214613",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "XDZQQNFMVI4EUOYANW2FV6FYAZMR7JK7",
+     "length": "21699",
+     "filename": "crawl-data/CC-MAIN-2023-40/segments/1695233511021.4/warc/CC-MAIN-20231002200740-20231002230740-00610.warc.gz",
+     "offset": "473121117"
+    }
+   },
+   "CC-MAIN-2023-23": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2023-14": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20230327105550",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "OKPLQ2ZDHIHNWQCXLZWM7IOTMXWCLXUM",
+     "length": "20866",
+     "filename": "crawl-data/CC-MAIN-2023-14/segments/1679296948620.60/warc/CC-MAIN-20230327092225-20230327122225-00610.warc.gz",
+     "offset": "478502905"
+    }
+   },
+   "CC-MAIN-2023-06": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2022-49": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20221202165042",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "MKGRRONQB2DAUR75KOTYJXE5OYPJW4PK",
+     "length": "19901",
+     "filename": "crawl-data/CC-MAIN-2022-49/segments/1669446710909.66/warc/CC-MAIN-20221202150823-20221202180823-00130.warc.gz",
+     "offset": "483383591"
+    }
+   },
+   "CC-MAIN-2021-49": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20211128090411",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "VRWRVWMWC7H6JDTEV7SQJ3FTRDESIWIU",
+     "length": "17622",
+     "filename": "crawl-data/CC-MAIN-2021-49/segments/1637964358480.10/warc/CC-MAIN-20211128073830-20211128103830-00290.warc.gz",
+     "offset": "513968464"
+    }
+   },
+   "CC-MAIN-2020-50": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20201130234118",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "K2ILZXLVXZFEJU5DOCP2V7M2Z32KEHU4",
+     "length": "12604",
+     "filename": "crawl-data/CC-MAIN-2020-50/segments/1606141515751.74/warc/CC-MAIN-20201130222609-20201201012609-00610.warc.gz",
+     "offset": "416685528"
+    }
+   },
+   "CC-MAIN-2019-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2018-51": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20181210100606",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "AR6K64FIJJ6QGG7NB3ICXFVTTDLWATRM",
+     "length": "10063",
+     "filename": "crawl-data/CC-MAIN-2018-51/segments/1544376823320.11/warc/CC-MAIN-20181210080704-20181210102204-00609.warc.gz",
+     "offset": "216111886"
+    }
+   },
+   "CC-MAIN-2017-51": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2016-50": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2015-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2014-52": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2013-48": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   }
+  },
+  "https://plainscree.algonquianlanguages.ca/": {
+   "CC-MAIN-2026-30": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-25": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-21": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2026-17": {
+    "n": 0,
+    "statuses": [],
+    "latest_200": null
+   },
+   "CC-MAIN-2024-51": {
+    "n": 1,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20241213094929",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "GE346NKUJ4YNRNEYQ3M5V4Y5GM2WHQAJ",
+     "length": "8922",
+     "filename": "crawl-data/CC-MAIN-2024-51/segments/1733066116599.47/warc/CC-MAIN-20241213074100-20241213104100-00237.warc.gz",
+     "offset": "417361520"
+    }
+   },
+   "CC-MAIN-2023-50": {
+    "n": 2,
+    "statuses": [
+     "200"
+    ],
+    "latest_200": {
+     "timestamp": "20231130150720",
+     "status": "200",
+     "mime": "text/html",
+     "digest": "GA3DCZSVIK4GQYZ55R7CQ7QG4D4KIRJ5",
+     "length": "8795",
+     "filename": "crawl-data/CC-MAIN-2023-50/segments/1700679100227.61/warc/CC-MAIN-20231130130218-20231130160218-00237.warc.gz",
+     "offset": "527268889"
+    }
+   }
+  }
+ }
+}

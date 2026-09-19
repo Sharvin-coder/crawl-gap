@@ -1,0 +1,13 @@
+{
+ "crawls": [
+  "CC-MAIN-2026-30",
+  "CC-MAIN-2026-25",
+  "CC-MAIN-2026-21",
+  "CC-MAIN-2026-17",
+  "CC-MAIN-2024-51",
+  "CC-MAIN-2023-50"
+ ],
+ "picked_from": 126,
+ "rule": "4 most recent + first-listed of 2024 and 2023",
+ "pinned_unix": 1786535073
+}

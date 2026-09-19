@@ -1,0 +1,411 @@
+{
+ "config": {
+  "script": "src/corpus_endpoint_dl.py",
+  "method": "direct parquet scan (train split)",
+  "cap_bytes": 524288000,
+  "corpora": {
+   "fineweb-2": "HuggingFaceFW/fineweb-2",
+   "glotcc-v1": "cis-lmu/GlotCC-V1"
+  },
+  "git_hash": "fbac560",
+  "run_unix": 1786510535
+ },
+ "runtime_s": 3.4,
+ "by_iso": {
+  "arp": {
+   "domains_checked": [
+    "verbs.colorado.edu",
+    "www.colorado.edu"
+   ],
+   "corpora": {
+    "fineweb-2": {
+     "subset_exists": true,
+     "configs": [
+      "arp_Latn"
+     ],
+     "domain_hits": {},
+     "rows_scanned": {
+      "arp_Latn": 34
+     }
+    },
+    "glotcc-v1": {
+     "subset_exists": false,
+     "configs": [],
+     "domain_hits": {},
+     "rows_scanned": {}
+    }
+   }
+  },
+  "bla": {
+   "domains_checked": [
+    "blackfoot.algonquianlanguages.ca",
+    "dictionary.blackfoot.atlas-ling.ca"
+   ],
+   "corpora": {
+    "fineweb-2": {
+     "subset_exists": true,
+     "configs": [
+      "bla_Latn"
+     ],
+     "domain_hits": {},
+     "rows_scanned": {
+      "bla_Latn": 29
+     }
+    },
+    "glotcc-v1": {
+     "subset_exists": false,
+     "configs": [],
+     "domain_hits": {},
+     "rows_scanned": {}
+    }
+   }
+  },
+  "cho": {
+   "domains_checked": [
+    "www.choctawnation.com",
+    "www.choctawschool.com"
+   ],
+   "corpora": {
+    "fineweb-2": {
+     "subset_exists": true,
+     "configs": [
+      "cho_Latn"
+     ],
+     "domain_hits": {},
+     "rows_scanned": {
+      "cho_Latn": 13
+     }
+    },
+    "glotcc-v1": {
+     "subset_exists": true,
+     "configs": [
+      "cho-Latn"
+     ],
+     "domain_hits": {},
+     "rows_scanned": {
+      "cho-Latn": 4
+     }
+    }
+   }
+  },
+  "chr": {
+   "domains_checked": [
+    "language.cherokee.org",
+    "learn.cherokee.org",
+    "www.cherokeedictionary.net",
+    "www.cherokeelessons.com"
+   ],
+   "corpora": {
+    "fineweb-2": {
+     "subset_exists": true,
+     "configs": [
+      "chr_Cher",
+      "chr_Latn"
+     ],
+     "domain_hits": {},
+     "rows_scanned": {
+      "chr_Cher": 13,
+      "chr_Latn": 10
+     }
+    },
+    "glotcc-v1": {
+     "subset_exists": false,
+     "configs": [],
+     "domain_hits": {},
+     "rows_scanned": {}
+    }
+   }
+  },
+  "cic": {
+   "domains_checked": [
+    "anompa.chickasaw.net",
+    "www.chickasaw.net"
+   ],
+   "corpora": {
+    "fineweb-2": {
+     "subset_exists": false,
+     "configs": [],
+     "domain_hits": {},
+     "rows_scanned": {}
+    },
+    "glotcc-v1": {
+     "subset_exists": false,
+     "configs": [],
+     "domain_hits": {},
+     "rows_scanned": {}
+    }
+   }
+  },
+  "ciw": {
+   "domains_checked": [
+    "ojibwe.lib.umn.edu",
+    "ojibwe.net"
+   ],
+   "corpora": {
+    "fineweb-2": {
+     "subset_exists": false,
+     "configs": [],
+     "domain_hits": {},
+     "rows_scanned": {}
+    },
+    "glotcc-v1": {
+     "subset_exists": false,
+     "configs": [],
+     "domain_hits": {},
+     "rows_scanned": {}
+    }
+   }
+  },
+  "crk": {
+   "domains_checked": [
+    "itwewina.altlab.app",
+    "plainscree.algonquianlanguages.ca",
+    "www.creedictionary.com"
+   ],
+   "corpora": {
+    "fineweb-2": {
+     "subset_exists": true,
+     "configs": [
+      "crk_Cans",
+      "crk_Latn"
+     ],
+     "domain_hits": {},
+     "rows_scanned": {
+      "crk_Cans": 78,
+      "crk_Latn": 114
+     }
+    },
+    "glotcc-v1": {
+     "subset_exists": true,
+     "configs": [
+      "crk-Cans",
+      "crk-Latn"
+     ],
+     "domain_hits": {},
+     "rows_scanned": {
+      "crk-Cans": 2,
+      "crk-Latn": 15
+     }
+    }
+   }
+  },
+  "esu": {
+   "domains_checked": [
+    "www.uaf.edu"
+   ],
+   "corpora": {
+    "fineweb-2": {
+     "subset_exists": true,
+     "configs": [
+      "esu_Latn"
+     ],
+     "domain_hits": {},
+     "rows_scanned": {
+      "esu_Latn": 239
+     }
+    },
+    "glotcc-v1": {
+     "subset_exists": true,
+     "configs": [
+      "esu-Latn"
+     ],
+     "domain_hits": {},
+     "rows_scanned": {
+      "esu-Latn": 2
+     }
+    }
+   }
+  },
+  "lkt": {
+   "domains_checked": [
+    "lakhota.org",
+    "languageconservancy.org"
+   ],
+   "corpora": {
+    "fineweb-2": {
+     "subset_exists": false,
+     "configs": [],
+     "domain_hits": {},
+     "rows_scanned": {}
+    },
+    "glotcc-v1": {
+     "subset_exists": false,
+     "configs": [],
+     "domain_hits": {},
+     "rows_scanned": {}
+    }
+   }
+  },
+  "mez": {
+   "domains_checked": [
+    "menominee.libguides.com",
+    "menomineelanguage.com"
+   ],
+   "corpora": {
+    "fineweb-2": {
+     "subset_exists": false,
+     "configs": [],
+     "domain_hits": {},
+     "rows_scanned": {}
+    },
+    "glotcc-v1": {
+     "subset_exists": false,
+     "configs": [],
+     "domain_hits": {},
+     "rows_scanned": {}
+    }
+   }
+  },
+  "moh": {
+   "domains_checked": [
+    "kanienkeha.net",
+    "mohawk.kanienkeha.free.fr",
+    "www.firstvoices.com",
+    "www.native-languages.org"
+   ],
+   "corpora": {
+    "fineweb-2": {
+     "subset_exists": true,
+     "configs": [
+      "moh_Latn"
+     ],
+     "domain_hits": {},
+     "rows_scanned": {
+      "moh_Latn": 86
+     }
+    },
+    "glotcc-v1": {
+     "subset_exists": true,
+     "configs": [
+      "moh-Latn"
+     ],
+     "domain_hits": {},
+     "rows_scanned": {
+      "moh-Latn": 15
+     }
+    }
+   }
+  },
+  "mus": {
+   "domains_checked": [
+    "muskogee.pages.wm.edu",
+    "www.muscogeenation.com"
+   ],
+   "corpora": {
+    "fineweb-2": {
+     "subset_exists": true,
+     "configs": [
+      "mus_Latn"
+     ],
+     "domain_hits": {},
+     "rows_scanned": {
+      "mus_Latn": 10
+     }
+    },
+    "glotcc-v1": {
+     "subset_exists": false,
+     "configs": [],
+     "domain_hits": {},
+     "rows_scanned": {}
+    }
+   }
+  },
+  "nav": {
+   "domains_checked": [
+    "navajo-dictionary.com",
+    "opvp.navajo-nsn.gov"
+   ],
+   "corpora": {
+    "fineweb-2": {
+     "subset_exists": true,
+     "configs": [
+      "nav_Latn"
+     ],
+     "domain_hits": {},
+     "rows_scanned": {
+      "nav_Latn": 26
+     }
+    },
+    "glotcc-v1": {
+     "subset_exists": true,
+     "configs": [
+      "nav-Latn"
+     ],
+     "domain_hits": {},
+     "rows_scanned": {
+      "nav-Latn": 224
+     }
+    }
+   }
+  },
+  "osa": {
+   "domains_checked": [
+    "www.osageculture.com",
+    "www.osagenation-nsn.gov"
+   ],
+   "corpora": {
+    "fineweb-2": {
+     "subset_exists": false,
+     "configs": [],
+     "domain_hits": {},
+     "rows_scanned": {}
+    },
+    "glotcc-v1": {
+     "subset_exists": false,
+     "configs": [],
+     "domain_hits": {},
+     "rows_scanned": {}
+    }
+   }
+  },
+  "pot": {
+   "domains_checked": [
+    "ojibwe.net",
+    "www.potawatomi.org",
+    "www.potawatomiheritage.com"
+   ],
+   "corpora": {
+    "fineweb-2": {
+     "subset_exists": true,
+     "configs": [
+      "pot_Latn"
+     ],
+     "domain_hits": {},
+     "rows_scanned": {
+      "pot_Latn": 61
+     }
+    },
+    "glotcc-v1": {
+     "subset_exists": true,
+     "configs": [
+      "pot-Latn"
+     ],
+     "domain_hits": {},
+     "rows_scanned": {
+      "pot-Latn": 1
+     }
+    }
+   }
+  },
+  "tli": {
+   "domains_checked": [
+    "sealaskaheritage.org",
+    "www.sealaska.com"
+   ],
+   "corpora": {
+    "fineweb-2": {
+     "subset_exists": false,
+     "configs": [],
+     "domain_hits": {},
+     "rows_scanned": {}
+    },
+    "glotcc-v1": {
+     "subset_exists": false,
+     "configs": [],
+     "domain_hits": {},
+     "rows_scanned": {}
+    }
+   }
+  }
+ }
+}

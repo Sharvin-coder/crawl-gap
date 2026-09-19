@@ -1,0 +1,151 @@
+{
+ "config": {
+  "script": "src/corpus_breadth.py",
+  "datasets": {
+   "mC4": "legacy-datasets/mc4",
+   "OSCAR-2301": "oscar-corpus/OSCAR-2301",
+   "MADLAD-400": "allenai/MADLAD-400",
+   "CulturaX": "uonlp/CulturaX"
+  },
+  "alt_codes": {
+   "nav": [
+    "nv"
+   ],
+   "crk": [
+    "cr"
+   ],
+   "ciw": [
+    "oj",
+    "ojb"
+   ],
+   "chr": [],
+   "cho": [],
+   "cic": [],
+   "mus": [],
+   "lkt": [],
+   "moh": [],
+   "arp": [],
+   "osa": [],
+   "bla": [],
+   "tli": [],
+   "esu": [],
+   "pot": [],
+   "mez": []
+  },
+  "git_hash": "15945c4",
+  "run_unix": 1789859168
+ },
+ "runtime_s": 4.7,
+ "n_configs": {
+  "mC4": 103,
+  "MADLAD-400": 419,
+  "CulturaX": 167,
+  "OSCAR-2301": 153
+ },
+ "by_iso": {
+  "arp": {
+   "mC4": [],
+   "OSCAR-2301": [],
+   "MADLAD-400": [],
+   "CulturaX": []
+  },
+  "bla": {
+   "mC4": [],
+   "OSCAR-2301": [],
+   "MADLAD-400": [],
+   "CulturaX": []
+  },
+  "cho": {
+   "mC4": [],
+   "OSCAR-2301": [],
+   "MADLAD-400": [],
+   "CulturaX": []
+  },
+  "chr": {
+   "mC4": [],
+   "OSCAR-2301": [],
+   "MADLAD-400": [
+    "chr"
+   ],
+   "CulturaX": []
+  },
+  "cic": {
+   "mC4": [],
+   "OSCAR-2301": [],
+   "MADLAD-400": [],
+   "CulturaX": []
+  },
+  "ciw": {
+   "mC4": [],
+   "OSCAR-2301": [],
+   "MADLAD-400": [
+    "oj"
+   ],
+   "CulturaX": []
+  },
+  "crk": {
+   "mC4": [],
+   "OSCAR-2301": [],
+   "MADLAD-400": [
+    "cr_Latn"
+   ],
+   "CulturaX": []
+  },
+  "esu": {
+   "mC4": [],
+   "OSCAR-2301": [],
+   "MADLAD-400": [],
+   "CulturaX": []
+  },
+  "lkt": {
+   "mC4": [],
+   "OSCAR-2301": [],
+   "MADLAD-400": [],
+   "CulturaX": []
+  },
+  "mez": {
+   "mC4": [],
+   "OSCAR-2301": [],
+   "MADLAD-400": [],
+   "CulturaX": []
+  },
+  "moh": {
+   "mC4": [],
+   "OSCAR-2301": [],
+   "MADLAD-400": [],
+   "CulturaX": []
+  },
+  "mus": {
+   "mC4": [],
+   "OSCAR-2301": [],
+   "MADLAD-400": [],
+   "CulturaX": []
+  },
+  "nav": {
+   "mC4": [],
+   "OSCAR-2301": [],
+   "MADLAD-400": [
+    "nv"
+   ],
+   "CulturaX": []
+  },
+  "osa": {
+   "mC4": [],
+   "OSCAR-2301": [],
+   "MADLAD-400": [],
+   "CulturaX": []
+  },
+  "pot": {
+   "mC4": [],
+   "OSCAR-2301": [],
+   "MADLAD-400": [],
+   "CulturaX": []
+  },
+  "tli": {
+   "mC4": [],
+   "OSCAR-2301": [],
+   "MADLAD-400": [],
+   "CulturaX": []
+  }
+ }
+}

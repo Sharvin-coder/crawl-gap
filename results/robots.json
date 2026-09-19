@@ -1,0 +1,224 @@
+{
+ "config": {
+  "script": "src/cdx_coverage.py",
+  "git_hash": "d5b7585"
+ },
+ "robots": {
+  "anompa.chickasaw.net": {
+   "status": 404,
+   "has_robots": false
+  },
+  "blackfoot.algonquianlanguages.ca": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "dictionary.blackfoot.atlas-ling.ca": {
+   "status": 404,
+   "has_robots": false
+  },
+  "itwewina.altlab.app": {
+   "status": 404,
+   "has_robots": false
+  },
+  "kanienkeha.net": {
+   "status": 522,
+   "has_robots": false
+  },
+  "lakhota.org": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "language.cherokee.org": {
+   "status": 404,
+   "has_robots": false
+  },
+  "languageconservancy.org": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "learn.cherokee.org": {
+   "status": 404,
+   "has_robots": false
+  },
+  "menominee.libguides.com": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": true,
+   "ccbot_blocked_all": true,
+   "star_blocked_all": false
+  },
+  "menomineelanguage.com": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "mohawk.kanienkeha.free.fr": {
+   "status": null,
+   "has_robots": false
+  },
+  "muskogee.pages.wm.edu": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "navajo-dictionary.com": {
+   "status": 404,
+   "has_robots": false
+  },
+  "ojibwe.lib.umn.edu": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "ojibwe.net": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "opvp.navajo-nsn.gov": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "plainscree.algonquianlanguages.ca": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "sealaskaheritage.org": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "verbs.colorado.edu": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "www.cherokeedictionary.net": {
+   "status": 404,
+   "has_robots": false
+  },
+  "www.cherokeelessons.com": {
+   "status": 522,
+   "has_robots": false
+  },
+  "www.chickasaw.net": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "www.choctawnation.com": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "www.choctawschool.com": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "www.colorado.edu": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "www.creedictionary.com": {
+   "status": 404,
+   "has_robots": false
+  },
+  "www.firstvoices.com": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "www.muscogeenation.com": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "www.native-languages.org": {
+   "status": 404,
+   "has_robots": false
+  },
+  "www.osageculture.com": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "www.osagenation-nsn.gov": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "www.potawatomi.org": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "www.potawatomiheritage.com": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "www.sealaska.com": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  },
+  "www.uaf.edu": {
+   "status": 200,
+   "has_robots": true,
+   "ccbot_named": false,
+   "ccbot_blocked_all": false,
+   "star_blocked_all": false
+  }
+ }
+}
